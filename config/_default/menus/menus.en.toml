@@ -6,17 +6,17 @@
 [[main]]
   name = "Triggers"
   url = "/docs/guides/Triggers 1/Trigger Intro"
-  weight = 10
+  weight = 20
 
 [[main]]
   name = "Gameplay"
   url = "/docs/guides/Gameplay 1/Using Gamemodes"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "Decoration"
   url = "/docs/guides/Deco 1/Using Deco Objects"
-  weight = 30
+  weight = 40
 
 [[social]]
   name = "Discord"
