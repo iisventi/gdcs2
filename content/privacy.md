@@ -12,4 +12,6 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-We don't collect any data on you. That's about it.
+We collect some aggregate data, such as "how many people visit per month" or "which pages are looked at the most", so we can improve things. However we don't use or share any data related to you in particular.
+
+That's about it.
