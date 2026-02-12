@@ -1,7 +1,7 @@
 ---
 title: Perspective 3 (Using Planes)
-weight: 824
-draft: true
+weight: 822
+draft: false
 ---
 ## Guide info
 Medium: 11-13 minutes

@@ -1,7 +1,7 @@
 ---
 title: Color 4 (Color Grading)
-weight: 824
-draft: true
+weight: 804
+draft: false
 ---
 ## Guide info
 Short: 8-10 minutes

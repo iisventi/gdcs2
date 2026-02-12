@@ -1,7 +1,7 @@
 ---
 title: Color 5 (Human Perception)
-weight: 824
-draft: true
+weight: 805
+draft: false
 ---
 ## Guide info
 Short: 6-8 minutes

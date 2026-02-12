@@ -1,7 +1,7 @@
 ---
 title: Perspective 2 (Making Forms)
-weight: 824
-draft: true
+weight: 821
+draft: false
 ---
 ## Guide info
 Short: 5-7 minutes

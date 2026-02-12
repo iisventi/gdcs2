@@ -1,7 +1,7 @@
 ---
 title: Light 3 (Value)
-weight: 824
-draft: true
+weight: 808
+draft: false
 ---
 ## Guide info
 Short: 5-7 minutes

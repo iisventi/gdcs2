@@ -1,7 +1,7 @@
 ---
 title: Color 3 (Color Schemes)
-weight: 824
-draft: true
+weight: 803
+draft: false
 ---
 ## Guide info
 Short: 8-10 minutes

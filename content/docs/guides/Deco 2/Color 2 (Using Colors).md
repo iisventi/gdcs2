@@ -1,7 +1,7 @@
 ---
 title: Color 2 (Using Colors)
-weight: 824
-draft: true
+weight: 802
+draft: false
 ---
 ## Guide info
 Short: 6-8 minutes

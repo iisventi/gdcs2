@@ -1,7 +1,7 @@
 ---
 title: Light 5 (Texture)
-weight: 824
-draft: true
+weight: 810
+draft: false
 ---
 ## Guide info
 Medium: 14-16 minutes

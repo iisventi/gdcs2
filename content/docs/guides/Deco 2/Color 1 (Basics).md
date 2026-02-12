@@ -1,7 +1,7 @@
 ---
 title: Color 1 (Basics)
-weight: 824
-draft: true
+weight: 801
+draft: false
 ---
 ## Guide info
 Short: 4-6 minutes

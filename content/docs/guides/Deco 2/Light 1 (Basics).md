@@ -1,7 +1,7 @@
 ---
 title: Light 1 (Basics)
-weight: 824
-draft: true
+weight: 806
+draft: false
 ---
 ## Guide info
 Short: 4-6 minutes

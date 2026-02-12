@@ -1,7 +1,7 @@
 ---
 title: Light 2 (Making Shadows)
-weight: 824
-draft: true
+weight: 807
+draft: false
 ---
 ## Guide info
 Medium: 11-13 minutes
