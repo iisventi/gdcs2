@@ -1,7 +1,9 @@
 ---
 title: Placing Objects
+description: "A basic guide to the most important features in the GD Editor."
 weight: 101
 draft: false
+
 seo:
   title: "How to Use the Geometry Dash Editor" # custom title (optional)
   description: "The basics of how to use Geometry Dash's level editor." # custom description (recommended)
