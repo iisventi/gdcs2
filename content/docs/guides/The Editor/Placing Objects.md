@@ -2,6 +2,11 @@
 title: Placing Objects
 weight: 101
 draft: false
+seo:
+  title: "How to Use the Geometry Dash Editor" # custom title (optional)
+  description: "The basics of how to use Geometry Dash's level editor." # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
 ---
 
 {{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (1-3 minutes)
