@@ -1,1 +1,19 @@
 // Put your custom SCSS code here
+
+img.emote {
+    display: inline;
+    width: 1.55rem;
+    height: auto;
+}
+
+img.smallemote {
+    display: inline;
+    width: 1rem;
+    height: auto;
+}
+
+img.largeemote {
+    display: inline;
+    width: 4rem;
+    height: auto;
+}
