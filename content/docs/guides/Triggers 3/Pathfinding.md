@@ -3,8 +3,8 @@ title: Pathfinding
 weight: 911
 draft: false
 ---
-## Guide info
-Medium: 11-13 minutes
+** **
+{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Medium** (11-13 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
@@ -12,9 +12,10 @@ Medium: 11-13 minutes
 - You can represent a graph using an adjacency list, or an adjacency matrix. Both of these have their pros and cons depending on the circumstances
 - There are a variety of pathfinding algorithms, but the main ones you’ll use are Depth/Breadth-First Search, Dijkstra’s Algorithm, and A*. All of these are usable in GD, provided that you make a Queue/Stack data structure for them.
 
+{{< /callout >}}
+
 ** **
 
-{{< /callout >}}
 # 1: Basics of Graph Theory
 
 The vast majority of pathfinding algorithms use **graphs**. These are abstract objects made of two things; a set of **nodes**, and a set of **links/edges** which each link two nodes together.
@@ -22,13 +23,13 @@ The vast majority of pathfinding algorithms use **graphs**. These are abstract o
 You can think of a graph as drawing a bunch of points (nodes) on paper, and then drawing lines between some of them. This also means that a node can exist without being linked to other nodes, but a link must go from one node to another. Nodes that have an edge between them are called **neighbors**.
 ## Types of Graphs
 
-1_NonOriented.png
+{{< img src="https://lh3.googleusercontent.com/d/1uyQgeT7lkbH62cO6ExxOH_g769PD1Jl_" >}}
 
 **Oriented/Non-oriented**
 
 A graph is **oriented** if the links are represented as __one-way arrows__. This means that with a link from node `n` to node `m`, you can go from `n` to `m`, but not the other way around, unless a link from `m` to `n` also exists. For example, you can go from 1 to 3 in the graph below, but not from 3 to 1.
 
-2_Oriented.png
+{{< img src="https://lh3.googleusercontent.com/d/1Zkk5T1d86qDnvfKDjNhBAXY5Tr-irpk0" >}}
 
 With a non-oriented graph, the edges are represented as two-way arrows, or just lines without arrows.
 
@@ -38,13 +39,14 @@ A graph is weighted if each link has an extra number related to it called the **
 
 An unweighted graph has no numbers, so each edge has the same “weight”.
 
-3_Weighted.png
+{{< img src="https://lh3.googleusercontent.com/d/1l1_Jy4DcC5l_pvp6Ee3mcvouV29c8MdQ" >}}
 
 **Multigraphs**
 
 A **multigraph** lets you have multiple links between two nodes, and nodes that are linked to themselves. These are less common, but still have their use cases nonetheless, mostly in scenarios with multiple valid paths between two objectives.
 
-4_Multigraph.png
+{{< img src="https://lh3.googleusercontent.com/d/1Ib-Q7IS8EWx6ms_M2RZeCV9iZBVXbjuu" >}}
+
 
 **Connected Graphs**
 
@@ -52,17 +54,21 @@ We say a graph is connected if you can reach any node from any other node throug
 
 For example, the graph on the left is connected, but the graph on the right is not.
 
-5_ConnectedGraph.png
+{{< img src="https://lh3.googleusercontent.com/d/12PIuJArgyZRCrEgmQ-_Gui9hu2DkdzEm" >}}
+
 
 ## Uses for Graphs
 Graphs are very important, as they're a very general tool used to represent a lot of things, but mostly network and relations based situations.
 For example, you can use an oriented graph to represent a city, where intersections/points of interest are nodes, and roads are links, depending on if you can cross them or not, with the weight representing the length of the road.
 
-7_RoadGraph.png
+
+{{< img src="https://lh3.googleusercontent.com/d/18sCCIU9Hd2_seN11J8NTqlb-cIpKHh3k" >}}
+
 
 You can also use graphs to simplify a maze for AI to traverse, where a node would represent an intersection or dead end.
 
-8_MazeGraph.png
+{{< img src="https://lh3.googleusercontent.com/d/1yZoqV5t1WDx8kJrl2CQ1h3UsyJV1qt__" >}}
+
 
 Networks of interactions are also uses of graphs. For example, you could draw nodes to represent people in a school, and edges to represent which people are friends with each other. Additionally, you can consider flowcharts (such as the ones you use to make algorithms) as a sort of graph.
 
@@ -78,25 +84,25 @@ Adjacency lists are really efficient for figuring out what neighbors a node has,
 
 Here are some examples.
 
-9_AdjList1.png
+{{< img src="https://lh3.googleusercontent.com/d/111DFZUJ0WID9bqdG0iJ7viKD-6EhGhL1" >}}
 
-11_AdjList3.png
+{{< img src="https://lh3.googleusercontent.com/d/1XGF_nHnhJzgxNKsqFd4nm-mmZtgFisNm" >}}
 
 ## Adjacency Matrices
 
 An adjacency matrix is a matrix of size n * n (where n is the number of nodes) with the element of (row i, column j) being the weight of the edge if one exists, or a special value otherwise (0, -1, greatest integer possible, pick whatever suits your needs). It can also be unweighted, and in that case, just a matrix of zeros and ones can do the trick. Adjacency Matrices cannot be used on multigraphs.
 
-13_AdjMatrix1.png
+{{< img src="https://lh3.googleusercontent.com/d/1ACKPgPZXBPl9ndBys4tZRhBCgVxei58f" >}}
 
 If the graph is undirected, you can just use a triangular matrix. Since there is no distinction between the node from and the node to in the link, it would be symmetric along the diagonal. You can remove either the bottom or top half, to avoid data duplication and extra memory.
 
-15_AdjMatrix3.png
+{{< img src="https://lh3.googleusercontent.com/d/1TVCXvHisD4V-7bkdu46HcQ94DbWmUPK-" >}}
 
 Note that information about links is useless on the diagonal. Since this info is related to a node and itself, and you can’t use these matrices on Multigraphs, you can add extra information in those spaces.
 
 For example, here I am keeping track of how many neighbors a node `x` has in the space (x, x), which makes querying how many neighbors a node instantaneous, which isn’t normally the case in a normal adjacency matrix.
 
-17_AdjMatrix5.png
+{{< img src="https://lh3.googleusercontent.com/d/1Re_2gjPKg3PWvPjZeCoIu3CSkC7iuEEw" >}}
 
 There are other ways of representing graphs, but they are usually for very specific cases far from their uses in games.
 
@@ -137,7 +143,7 @@ while NOT stack.is_empty() {
 }
 ```
 
-The time complexity of this algorithm is `O(graph.nb_nodes() + graph.nb_edges())`, though it depends on how you’ve implemented your stack. 
+The time complexity of this algorithm is `O(graph.nb_nodes() + graph.nb_edges())`, though it depends on how you’ve implemented your stack.
 
 A slightly modified version of DFS is used to generate random 2D mazes. A maze of size x\*y can be represented using a graph with x*y nodes arranged in a grid. Links between nodes exist if you can go from one node to another.
 
@@ -160,14 +166,14 @@ while not stack.is_empty() {
     let random_neighbor = choose_random_neighbor_of(node)
     stack.push(random_neighbor)
     remove_wall_between(node, random_neighbor)
-}    
+}
 ```
 
 The function `remove_wall_between` is done on the actual in-game maze, where you can use a system of toggle triggers to remove the respective walls. This gives us fully randomized mazes that are sure to have at least one solution from any point A to any point B.
 
 Here’s an example of that algorithm on a 3x3 maze, with the node in red being the current node, the blue one a randomly chosen neighbor, and nodes in green being ones you’ve already visited.
 
-19_DFSMaze.png
+{{< img src="https://lh3.googleusercontent.com/d/1qMR7-dIq4UCyf8YbRHFZJcyZcYmG4gnu" >}}
 
 Even with such a small grid, the algorithm already gives a maze-like structure with intersections and dead ends, while still being fully completable from one point to any other. And as you can see, a link between two nodes implies a wall on the final maze, instead of the other way around.
 
@@ -221,7 +227,7 @@ fn dijkstra(g: Graph, start: Node, end: Node) {
         predecessors[candidate] = candidate.predecessor
         for n in graph.neighbours_of(candidate) {
 queue.push(n,
-cost = candidate.cost + 
+cost = candidate.cost +
 graph.weight_of_link_between(n, candidate),
                 predecessor = candidate)
         }
@@ -231,7 +237,7 @@ graph.weight_of_link_between(n, candidate),
 
 The time complexity of the algorithm is `O((graph.nb_nodes() + graph.nb_links()) * log(graph.nb_links())`, though it may depend on your implementation of the queue.
 
-**A* (hard)**
+**A\* (hard)**
 
 A* is an algorithm that finds a “good enough” path between two nodes in a graph when we already know what the optimal path may look like. For example, if you’re making a game where the end goal is always in the top right, you can guess that going to the bottom left isn’t optimal at all.
 
