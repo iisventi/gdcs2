@@ -24,15 +24,15 @@ The vast majority of pathfinding algorithms use **graphs**. These are abstract o
 You can think of a graph as drawing a bunch of points (nodes) on paper, and then drawing lines between some of them. This also means that a node can exist without being linked to other nodes, but a link must go from one node to another. Nodes that have an edge between them are called **neighbors**.
 ## Types of Graphs
 
-{{< img src="https://lh3.googleusercontent.com/d/1uyQgeT7lkbH62cO6ExxOH_g769PD1Jl_" >}}
-
 **Oriented/Non-oriented**
 
 A graph is **oriented** if the links are represented as __one-way arrows__. This means that with a link from node $n$ to node $m$, you can go from $n$ to $m$, but not the other way around, unless a link from $m$ to $n$ also exists. For example, you can go from 1 to 3 in the graph below, but not from 3 to 1.
 
-{{< img src="https://lh3.googleusercontent.com/d/1Zkk5T1d86qDnvfKDjNhBAXY5Tr-irpk0" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1uyQgeT7lkbH62cO6ExxOH_g769PD1Jl_" >}}
 
 With a non-oriented graph, the edges are represented as two-way arrows, or just lines without arrows.
+
+{{< img src="https://lh3.googleusercontent.com/d/1Zkk5T1d86qDnvfKDjNhBAXY5Tr-irpk0" >}}
 
 **Weighted/Unweighted**
 
