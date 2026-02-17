@@ -2,6 +2,7 @@
 title: Pathfinding
 weight: 911
 draft: false
+math: true
 ---
 ** **
 {{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Medium** (11-13 minutes)
@@ -27,7 +28,7 @@ You can think of a graph as drawing a bunch of points (nodes) on paper, and then
 
 **Oriented/Non-oriented**
 
-A graph is **oriented** if the links are represented as __one-way arrows__. This means that with a link from node `n` to node `m`, you can go from `n` to `m`, but not the other way around, unless a link from `m` to `n` also exists. For example, you can go from 1 to 3 in the graph below, but not from 3 to 1.
+A graph is **oriented** if the links are represented as __one-way arrows__. This means that with a link from node $n$ to node $m$, you can go from $n$ to $m$, but not the other way around, unless a link from $m$ to $n$ also exists. For example, you can go from 1 to 3 in the graph below, but not from 3 to 1.
 
 {{< img src="https://lh3.googleusercontent.com/d/1Zkk5T1d86qDnvfKDjNhBAXY5Tr-irpk0" >}}
 
@@ -90,7 +91,7 @@ Here are some examples.
 
 ## Adjacency Matrices
 
-An adjacency matrix is a matrix of size n * n (where n is the number of nodes) with the element of (row i, column j) being the weight of the edge if one exists, or a special value otherwise (0, -1, greatest integer possible, pick whatever suits your needs). It can also be unweighted, and in that case, just a matrix of zeros and ones can do the trick. Adjacency Matrices cannot be used on multigraphs.
+An adjacency matrix is a matrix of size $n \times n$ (where $n$ is the number of nodes) with the element of (row $i$, column $j$) being the weight of the edge if one exists, or a special value otherwise (0, -1, greatest integer possible, pick whatever suits your needs). It can also be unweighted, and in that case, just a matrix of zeros and ones can do the trick. Adjacency Matrices cannot be used on multigraphs.
 
 {{< img src="https://lh3.googleusercontent.com/d/1ACKPgPZXBPl9ndBys4tZRhBCgVxei58f" >}}
 
@@ -100,7 +101,7 @@ If the graph is undirected, you can just use a triangular matrix. Since there is
 
 Note that information about links is useless on the diagonal. Since this info is related to a node and itself, and you can’t use these matrices on Multigraphs, you can add extra information in those spaces.
 
-For example, here I am keeping track of how many neighbors a node `x` has in the space (x, x), which makes querying how many neighbors a node instantaneous, which isn’t normally the case in a normal adjacency matrix.
+For example, here I am keeping track of how many neighbors a node $x$ has in the space $(x, x)$, which makes querying how many neighbors a node instantaneous, which isn’t normally the case in a normal adjacency matrix.
 
 {{< img src="https://lh3.googleusercontent.com/d/1Re_2gjPKg3PWvPjZeCoIu3CSkC7iuEEw" >}}
 
@@ -110,7 +111,7 @@ There are other ways of representing graphs, but they are usually for very speci
 
 In this part, we’ll discuss the essentials of many common pathfinding algorithms. This includes their purpose, what kinds of graphs they work on, the computation itself, and their complexity.
 
-If you recall Function Design 1, complexity, noted `O(f(x))`, is an approximation of how long the algorithm will take depending on the size of the input. For example, with an algorithm of `O(n)`, algorithm(4) will take roughly twice as long as algorithm(2).
+If you recall Function Design 1, complexity, noted $O(f(x))$, is an approximation of how long the algorithm will take depending on the size of the input. For example, with an algorithm of $O(n)$, algorithm(4) will take roughly twice as long as algorithm(2).
 
 A few of these algorithms will use data structures presented in the Data Structures guide, so you should reread it for a refresher (when that's released).
 
@@ -145,7 +146,7 @@ while NOT stack.is_empty() {
 
 The time complexity of this algorithm is `O(graph.nb_nodes() + graph.nb_edges())`, though it depends on how you’ve implemented your stack.
 
-A slightly modified version of DFS is used to generate random 2D mazes. A maze of size x\*y can be represented using a graph with x*y nodes arranged in a grid. Links between nodes exist if you can go from one node to another.
+A slightly modified version of DFS is used to generate random 2D mazes. A maze of size $x \times y$ can be represented using a graph with $x \times y$ nodes arranged in a grid. Links between nodes exist if you can go from one node to another.
 
 Here’s the algorithm for how to create a random maze:
 
@@ -169,7 +170,7 @@ while not stack.is_empty() {
 }
 ```
 
-The function `remove_wall_between` is done on the actual in-game maze, where you can use a system of toggle triggers to remove the respective walls. This gives us fully randomized mazes that are sure to have at least one solution from any point A to any point B.
+The function `remove_wall_between` is done on the actual in-game maze, where you can use a system of toggle triggers to remove the respective walls. This gives us fully randomized mazes that are sure to have at least one solution from any point $A$ to any point $B$.
 
 Here’s an example of that algorithm on a 3x3 maze, with the node in red being the current node, the blue one a randomly chosen neighbor, and nodes in green being ones you’ve already visited.
 
