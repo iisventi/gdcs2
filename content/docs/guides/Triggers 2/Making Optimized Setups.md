@@ -33,7 +33,7 @@ One of the main reasons you’d want to optimize your systems is to minimize lag
 - **Overloading:** Too many triggers running at the same time, especially the more complicated or demanding ones, consume a great amount of resources.
 - **Creator bugs:** These bugs are caused by an incorrect use of triggers or a faulty implementation of your system.
 - **Game bugs:** These bugs cannot be fixed, due to them being caused by the game code. If you encounter a bug, make sure to report it to RobTop or an elder mod.
-There are other causes for lag that aren’t related to trigger usage but are worth checking out, for that read the [Deco 1 optimization guide](https://discord.com/channels/414295025883545600/1086730328271491114). Note that, while there are various factors that affect the general performance of your level, it hugely depends on the device you’re playing in; a powerful computer would suffer less lag than an old mobile phone.
+There are other causes for lag that aren’t related to trigger usage but are worth checking out, for that read the Deco 1 [Optimizing guide]({{< ref "docs/guides/Deco 1/Optimizing.md">}}). Note that, while there are various factors that affect the general performance of your level, it hugely depends on the device you’re playing in; a powerful computer would suffer less lag than an old mobile phone.
 
 ## Correct choice of triggers
 Each trigger performs differently due to the way it’s coded, so it's important to determine a trigger’s strength and when to use it over another. For example, a move trigger is very performant, but its follow feature is very unreliable compared to Advanced follow. The graph below shows how much different triggers affect the game’s performance. The metric used is frames per second (FPS) as it’s the most affected. Since triggers are mostly based on the CPU, objects have been toggled off in order to prevent decreasing the FPS due to the graphical rendering.
@@ -155,7 +155,7 @@ Use arrow objects or line objects to draw a link between 2 triggers; you can lin
 {{< img src="https://lh3.googleusercontent.com/d/1C4e0qCoUmiIgr2HaHdDhlxg8yLetK4Lo" >}}
 
 You can also use symbols instead of lines to indicate the direction or if the condition was true or false (see example 2). Branching is especially useful to represent loops (see example 3).
-Notice how you can build your system both horizontally or vertically. If a part of your system depends on the order in which triggers are activated, it is recommended to sort them left to right, in order in which they must spawn. This will let the reader know the trigger’s order without ambiguity (see the exponential function example). For more information, check the [Priority Order guide](https://discord.com/channels/414295025883545600/1230618156565921894).
+Notice how you can build your system both horizontally or vertically. If a part of your system depends on the order in which triggers are activated, it is recommended to sort them left to right, in order in which they must spawn. This will let the reader know the trigger’s order without ambiguity (see the exponential function example). For more information, check the [Priority Order guide]({{< ref "docs/guides/Triggers 2/Priority Order.md" >}}).
 
 **Pillar sorting**<br>
 You can place all triggers that happen at the same time in a vertical pillar, similarly to how non spawn and touch activated triggers are sorted in classic mode. This method orders triggers chronologically; a reader can easily figure out when a trigger might activate.
@@ -206,9 +206,7 @@ However, managing IDs can be challenging to pull off correctly, as it can raise 
 - **Case 1:** a tight range of IDs prevents further additions to a trigger setup. For the previous example, adding a second attack for the enemy would require me to use a couple of IDs above 120, which are already used by the second enemy.
 - **Case 2:** a loose range of IDs creates wasted IDs. In the same enemy example, if I used IDs 100-139 (accounting for the first case), then 20 IDs would go to waste if kept unused.
 
-To mitigate this, you can use multiple types of ID within a single remap. In the example above, IDs 100-110 can host the group IDs for deco, the item IDs for health, *and* the block IDs for collisions, while saving the rest for additional features. Although, if you do this you’d need more comprehensive ID tracking. You can check the <a href='{{< ref "docs/guides/The Editor/Using IDs.md" >}}' target="_blank" rel="noopener">Using IDs guide</a> for more information.
-
-In any case, this step should be used close to finalizing the trigger system or in advanced trigger setups where ID management is mandatory.
+To mitigate this, you can use multiple types of ID within a single remap. In the example above, IDs 100-110 can host the group IDs for deco, the item IDs for health, *and* the block IDs for collisions, while saving the rest for additional features. Although, if you do this you’d need more comprehensive ID tracking. You can check the [Using IDs guide]({{< ref "docs/guides/The Editor/Using IDs.md" >}}). for more information. In any case, this step should be used close to finalizing the trigger system or in advanced trigger setups where ID management is mandatory.
 
 
 ## Sources

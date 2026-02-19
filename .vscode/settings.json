@@ -1,7 +1,7 @@
 {
   "editor.wordWrap": "off",
   "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
+  "files.insertFinalNewline": false,
   "editor.tabSize": 2,
   "editor.insertSpaces": true
 }

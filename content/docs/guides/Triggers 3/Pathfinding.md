@@ -289,7 +289,7 @@ The time complexity is `O(graph.nb_nodes())`, though this is the case where no p
 
 ## Sources
 
-- <a href='https://docs.google.com/presentation/d/1eaGNyOmGUu7jj1dTxL_lqAdgGQcTkyovo-qQouRYWrw/edit?slide=id.g2de964e2c24_3_5#slide=id.g2de964e2c24_3_5' target="_blank" rel="noopener">Example images taken from these slides (French)</a>
+[Example images taken from these slides (French)](https://docs.google.com/presentation/d/1eaGNyOmGUu7jj1dTxL_lqAdgGQcTkyovo-qQouRYWrw/edit?slide=id.g2de964e2c24_3_5#slide=id.g2de964e2c24_3_5).
 
 ## Credits
 Created by **@Furorem** and **@koma5**
