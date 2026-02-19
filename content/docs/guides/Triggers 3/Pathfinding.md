@@ -3,6 +3,12 @@ title: Pathfinding
 weight: 911
 draft: false
 math: true
+
+seo:
+  title: "Graph Theory and Pathfinding for Geometry Dash" # custom title (optional)
+  description: "Basics of graph theory and pathfinding algorithms for Geometry Dash" # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
 ---
 ** **
 {{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Medium** (11-13 minutes)
@@ -283,9 +289,7 @@ The time complexity is `O(graph.nb_nodes())`, though this is the case where no p
 
 ## Sources
 
-- [Example images taken from these slides](https://docs.google.com/presentation/d/1eaGNyOmGUu7jj1dTxL_lqAdgGQcTkyovo-qQouRYWrw/edit#slide=id.g2ef7d1fe7bf_0_20)
-
-
+[Example images taken from these slides (French)](https://docs.google.com/presentation/d/1eaGNyOmGUu7jj1dTxL_lqAdgGQcTkyovo-qQouRYWrw/edit?slide=id.g2de964e2c24_3_5#slide=id.g2de964e2c24_3_5).
 
 ## Credits
-Created by @Furorem and @koma5
+Created by **@Furorem** and **@koma5**
