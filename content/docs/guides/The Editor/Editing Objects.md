@@ -2,6 +2,12 @@
 title: Editing Objects
 weight: 102
 draft: false
+
+seo:
+  title: "Geometry Dash: Editing Objects" # custom title (optional)
+  description: "Part 2 of how to use Geometry Dash's level editor, going over Z layer and Z Order, tilesets, groups, the Extra tabs, and Edit Object." # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
 ---
 {{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (7-9 minutes)
 
@@ -34,7 +40,7 @@ Z Layer takes priority over Z Order, so an object on layer T1 and order -5 will 
 ## Tilesets
 However, as of 2.2, there is a __new layering value__ called **tilesets**. These values are different for most objects, but similar objects share the same tileset number. You can check an object’s tileset by checking the value inside the parenthesis next to "Z Layer." If you select many objects with differing tileset numbers, it will show a - in the parenthesis.
 
-youtube [insert id of editing objects 2 vid]
+{{< img src="https://lh3.googleusercontent.com/d/1ThDEWCIk2bmPvnOqptCKacg5eLBrGyth" >}}
 
 Objects with a lower tileset will *ALWAYS* be above objects with a higher tileset, as long as both objects are in the same Z Layer. Tilesets completely override Z Order since Z Order *only affects objects with the same tileset*. If you ordered and layered everything correctly and still see something off, your problem might come from the tileset number, in which case you need to change the Z Layer.
 
@@ -57,7 +63,7 @@ The two extra tabs give you more options to customize your objects.
 ## Extra Tab 1
 **Extra Tab 1** __lets you select different options to give your objects different properties__. This section will go over the different options.
 
-youtube [insert editing objects 4 vid id]
+{{< img src="https://lh3.googleusercontent.com/d/1ApFT8E7higf7WeAfVDrdMJ9pVH92CXN9" >}}
 
 - **Don’t Fade** and **Don’t Enter**: __Stops the object from having an effect at the edge of the screen.__
 - **No Effects**: __Stops pads and portals from having effects as you interact with them__, like the background flashes in size portals.
@@ -90,7 +96,7 @@ This tab is somewhat self-explanatory. There are various counters, and these cou
 
 Keep in mind that not all objects are able to have certain IDs, meaning that some objects will not have some counters that other objects do have.
 
-youtube [insert editing object 5 vid is]
+{{< img src="https://lh3.googleusercontent.com/d/1iRSBsrj-PS2xdcgpjb4eVgFEXSrnLZsV" >}}
 
 ## Anim
 The **Anim** button right under the Extra2 button serves as a __shortcut to creating keyframes__. 

@@ -2,21 +2,29 @@
 title: Editor Settings
 weight: 104
 draft: false
----
-## Guide info
-Medium: 10-12 minutes
 
-## TLDR - What this guide covers
-- Level Settings help you to set the scene on how the level will start.
+seo:
+  title: "Geometry Dash: Editor Settings" # custom title (optional)
+  description: "Part 4 of how to use Geometry Dash's level editor, going over how to customize your editor's settings and layout, level settings, and keybinds." # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
+---
+{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Medium** (10-12 minutes)
+
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+- Level Settings help you customize how your level will start.
 - Due to the changing landscape of Update 2.2 compared to Update 2.1, legacy options are placed for compatibility with older levels.
 - You can customize your editor experience using the Editor Settings button, on the main menu.
 - If you’re playing on a PC, you can use keybinds to speed up the building process.
 
+{{< /callout >}}
+
 ** **
 
-__How would you like your level to start?__ The **level settings** can help you set it up. You can access this from the :Settings: button in the top right corner of the main editor screen. Clicking on it will bring you to this page:
+# 1: Level Settings
+__How would you like your level to start?__ The **level settings** can help you set it up. You can access this from the :Settings: button in the top right corner of the main editor screen. Clicking on it will bring you to this page.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1YBMfoE_jAqBhOEjB5rhqUif89PEWvR3r/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1YBMfoE_jAqBhOEjB5rhqUif89PEWvR3r" >}}
 
 ## Color Options
 At the top center of the page, you have options to change the color of the Background, Ground, Secondary Ground Color, Ground Line, Middle Ground, Secondary Middle Ground Color, and all color channels (in the more section). The plus symbols next to the labels will bring you back to the main editor screen and allow you to choose a color using a HSV slider.
@@ -37,7 +45,7 @@ Here you can select the starting gamemode of the level. There are eight gamemode
 Game Type allows you to choose between classic mode and platformer mode for your level. Note that the wave and swing game modes are disabled for platformer mode.
 
 ## Select Song
-Select the starting song for the level from the list of default songs or [use a custom song](<https://discord.com/channels/414295025883545600/1083170138695667893/1083170138695667893>).
+Select the starting song for the level from the list of default songs or [use a custom song](/docs/guides/the-editor/choosing-a-song).
 
 ## Options
 Gives extra options for the level, which includes the following:
@@ -51,52 +59,52 @@ Gives extra options for the level, which includes the following:
 - **No Time Penalty**: An option that only affects platformer mode. As you play a level in platformer mode, you lose 1,000 points per second. __This option removes this point loss.__
 - **Spawn Group**: __Spawns the player at the position of an object with the selected group.__ If multiple objects have the same group, one will be chosen at random. In normal mode, only the object’s y-value is relevant for spawning.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1Zu-PLbgZsoYmvKcaQtdDvy5Pp3B8IAH0/preview?usp=drivesdk></iframe></div>
+{{< youtube pGwNAlpqrOc>}}
 
 ## Legacy Options
 Within the options menu is another gear icon which leads to the legacy options menu. These options make it so that levels before recent updates can work like they did before the update. For the new 2.2 levels, it’s recommended to leave these options alone:
 - **Allow Multi-Rotation**: __Objects that are being rotated by 2 or more different rotate triggers will rotate properly.__
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1vQy1UuqZVPjtEbeEWJ1fd3PiNu0Jexiw/preview?usp=drivesdk></iframe></div>
+{{< youtube WXTGlvQTBRg>}}
 
 - **Enable 2.2 Changes**: __Changes progression in the level from being based on player position to being based on the verification completion time.__
 - **Allow Static-Rotate**: __Makes it so that static objects can visually rotate properly.__ Hitboxes are not rotated. This only works in the editor.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1_brt2r12oYuYuD0h3EHrDl_B0BeksFEZ/preview?usp=drivesdk></iframe></div>
+{{< youtube O28Ru0-MghQ>}}
 
 - **Enable Player Squeeze**: __Fixes a bug that allows a player to “squeeze” into an object when it shouldn’t.__
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1TR-zPeP7UUArMcz6SQ4mdWLl9R-z0ndy/preview?usp=drivesdk></iframe></div>
+{{< youtube njNbKLisV5w>}}
 
 - **Fix Gravity Bug**: __Fixes a bug where upside down gravity had different physics than normal gravity.__
 - **Fix Negative Scale**: __Fixes a bug where scaling an object into the negatives using scale hacks would remove or massively shrink a hitbox for an object.__
 - **Fix Robot Jump**: __Fixes moments where jumping at the right time on a slope or before a pad as a robot would give a massive jump height boost.__
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1LPI58ORMbfP0x4luhLpdTSawwvSUaigC/preview?usp=drivesdk></iframe></div>
+{{< youtube Y9qBZxjDCK8>}}
 
 - **Dynamic Level Height**: __Increases the level height as you build higher.__ This is similar to how a level’s length increases as you build further.
 - **Sort Groups**: __Makes it so that spawned groups are spawned from left to right.__
 - **Fix Radius Collision**: __Fixes a bug where circular hitboxes wouldn’t properly register by adding a circle hitbox to the player for those interactions.__
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1xsVBXjHq9fAaUk_h8AHatNtDXbg6f76I/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1xsVBXjHq9fAaUk_h8AHatNtDXbg6f76I" >}}
 
 - **Reverse Sync**: __Speeds up or slows down the player so that the music can stay in sync whenever a direction change occurs.__ 
 - **Decrease Boost Slide**: __Lessens how much the player slides after being launched by a dash orb or moving objects.__
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1hzGJlgWT-fLwwITa7KRdEAAoh-7iE-zJ/preview?usp=drivesdk></iframe></div>
+{{< youtube uT4GVrRlYfk>}}
 
 # 2: Editor Settings
 
-Meanwhile, the **editor settings** can be accessed on the main editor screen by pressing the “Esc” button or by clicking the :Pause: pause button in the top right corner. __They contain a slew of features that change how the editor looks, followed by some quality of life features__:
+Meanwhile, the **editor settings** can be accessed on the main editor screen by pressing the “Esc” button or by clicking the :Pause: pause button in the top right corner. They contain a slew of features that change how the editor looks, followed by some quality of life features.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/13VOHpks5xqZxgyVU-6uJnt8KSz9ardki/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/13VOHpks5xqZxgyVU-6uJnt8KSz9ardki" >}}
 
 ## Left Screen Options
 - **Show Hitboxes**: __Shows the hitboxes of objects that have them.__ Blue hitboxes are solid objects, red ones are hazards, and green ones are interactable objects. 
 
 > Note: Some objects do not have their hitboxes shown, even though they do have one. HItboxes are removed when an object has “No Touch” enabled.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/12eF7PgY7BdFJgxadEcOMg0vqdiD8NrPj/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/12eF7PgY7BdFJgxadEcOMg0vqdiD8NrPj" >}}
 
 - **Hide Invisible**: __Makes all objects with the “Hide” option enabled invisible.__ 
 - **Preview Mode**: __Changes the editor to look more like how everything is displayed normally is.__ When disabled, all objects are shown regardless of opacity or if they are toggled and all objects are colored based on what color channel they are on instead of the color of the color channel itself.
@@ -104,15 +112,15 @@ Meanwhile, the **editor settings** can be accessed on the main editor screen by 
 - **Preview Particles**: __Animates particles from the custom particle system.__
 - **Preview Shaders**: __Enables shaders to be rendered in the editor.__
 - **Show Ground**: __Shows the ground.__
-- **Show Object Info**: __Shows information about the object(s) you have selected.__ This includes: the groups it has, which color channels it is on, the editor layers it is on, Z-Order and Z-Layer, control ID, and more.
+- **Show Object Info**: __Shows information about the object(s) you have selected.__ This includes the groups, colors, and editor layers they have, their Z-Order and Z-Layer, control IDs, and more.
 - **Show Grid**: __Shows the editor grid.__
-- **Select Filter**: __Allows you to select certain objects based on the filters you put in place in the delete tab.__ Check the [Organizing Objects](<https://discord.com/channels/414295025883545600/1083167402902163507/1225156606652846150>) guide for a more in-depth explanation.
+- **Select Filter**: __Allows you to select certain objects based on the filters you put in place in the delete tab.__ Check the [Organizing Objects](/docs/guides/the-editor/organizing-objects/#2-select-filter) guide for a more in-depth explanation.
 - **Ignore Damage**: __Makes it so that you can’t die while playtesting in the editor.__
 
 ## Music Guidelines
 **Music guidelines** are __lines in the editor that appear by default when using main level songs and have to be created for custom songs__. The left button at the bottom of the screen toggles the visibility of these lines.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1hHPDt5RbGulPOBagnaHRMxSh9POGg8CS/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1hHPDt5RbGulPOBagnaHRMxSh9POGg8CS" >}}
 
 ## Right Screen Options
 These settings are on the right side of the editor, to the right of buttons like "Save" and "Save and Play".
@@ -147,15 +155,15 @@ These settings can be found by clicking the button with a gear on it in the top 
 - **Hide Background**: __Removes the background in the editor, leaving a black, empty one instead.__
 - **Enable Link Controls**: __Allows you to link objects together, which means they will be selected and deleted together when one object in the link is selected/deleted__. Linking objects and combining it with an “Area Parent” object can allow object movement to be linked in Area triggers.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1IXgb9YuOWP9XFTAS1OmeaxiKJHFqW-wV/preview?usp=drivesdk></iframe></div>
+{{< youtube DN7-4_8FgA8>}}
 
 - **Hold To Swipe**: __Enables swiping after holding down for a while.__
 - **Buttons Per Row/Button Rows**: Allows you to __customize how many buttons are displayed in the build, edit, and delete tabs.__ There is a minimum of 6 columns and 2 rows, and a maximum of 12 columns and 3 rows.
 - **Swipe Cycle Mode**: When using swipe, you are able to select multiple objects. However, if you try to click on an object that is with or near other objects, you might select the wrong one. Swipe Cycle __allows you to cycle between objects before you keep a selection__. Click on an object in very close proximity and within a close window of time from the last selection and it will deselect the last object and select a new object.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1GURT_m3oGrSSxVrKAwQsX7cmLPEojLkE/preview?usp=drivesdk></iframe></div>
+{{< youtube fpQ2H4lGHeo>}}
 
-- **Layer Locking**: __Allows you to lock layers by clicking the layer number in the editor.__ Makes it so you cannot build or select objects in them. This is explained more in the [Organizing Objects](<https://discord.com/channels/414295025883545600/1083167402902163507/1225156550428196864>) guide.
+- **Layer Locking**: __Allows you to lock layers by clicking the layer number in the editor.__ Makes it so you cannot build or select objects in them. This is explained more in the [Organizing Objects](/docs/guides/the-editor/organizing-objects/#locking-editor-layers) guide.
 - **Show Clicks**: __Places down small, orange squares at points you click during playtesting.__
 - **Auto-Pause**: __Pauses playtesting when spawning from a start position to reduce lag__.
 - **Hide Path**: __Hides the player path.__
@@ -168,18 +176,14 @@ These settings can be found by clicking the button with a gear on it in the top 
 - **Small Warp Buttons**: __Decreases the size of the warp buttons__ on an object when using the warp feature in the Edit Tab.
 
 ## Keybinds [PC-exclusive]
-**Keybinds** allow you to __input certain key combinations to perform actions in the editor__. As of Update 2.205, none of these can be binded to different keys. They can be found in the pause menu of the editor or the main options menu of the game. Most are self explanatory, but these keybinds need more explaining:
+**Keybinds** allow you to __input certain key combinations to perform actions in the editor__. As of Update 2.205, none of these can be binded to different keys. They can be found in the pause menu of the editor or the main options menu of the game. Most are self explanatory, but these keybinds need more explaining.
 - **Lock/Unlock Preview**: __Locks the visuals of the editor preview to a specific point in the editor.__
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1n7BhW9WdU99oAB34ZF6FVjOv4GGLkQQg/preview?usp=drivesdk></iframe></div>
+{{< youtube mftxAmNIlLQ>}}
 
 - **Save/Load Editor Pos**: __Saves the screen position of the editor camera which can be loaded to go to later.__ You can save a position using using Ctrl+[0-9], and load it using Alt+[0-9].
 
-<div><iframe src=https://drive.google.com/file/d/1RFTBPLsP8PAU3n-sBGqLYo5hnJB6VC1J/preview?usp=drivesdk></iframe></div>
-
-
-
-
+{{< youtube tLYwWL07GMo>}}
 
 ## Credits
-Created by @Selena and @tdp9
+Created by @Selena

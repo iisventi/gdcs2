@@ -1,6 +1,6 @@
 ---
 title: Creating Details
-weight: 505
+weight: 506
 draft: false
 ---
 {{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Medium** (13-15 minutes)

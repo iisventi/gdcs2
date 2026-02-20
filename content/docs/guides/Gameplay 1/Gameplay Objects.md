@@ -1,7 +1,7 @@
 ---
 title: Gameplay Objects
-weight: 111
-draft: true
+weight: 402
+draft: false
 ---
 ## Guide info
 Short: 9-11 minutes

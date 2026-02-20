@@ -1,6 +1,6 @@
 ---
 title: Making Effects
-weight: 511
+weight: 512
 draft: false
 ---
 {{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Medium** (12-14 minutes)

@@ -1,6 +1,6 @@
 ---
 title: Making Animations
-weight: 510
+weight: 511
 draft: false
 ---
 {{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (7-9 minutes)

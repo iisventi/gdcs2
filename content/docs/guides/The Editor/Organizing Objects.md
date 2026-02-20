@@ -2,12 +2,18 @@
 title: Organizing Objects
 weight: 103
 draft: false
+
+seo:
+  title: "Geometry Dash: Organizing Objects" # custom title (optional)
+  description: "Part 3 of how to use Geometry Dash's level editor, going over editor layers, select filter, and select all." # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
 ---
 {{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (4-6 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Editor layers are separate layers in a level. You can use these to sort and organize objects and easily select specific objects.
-- To change an object's layer, select it, click :EditGroup:  Edit Group and change the layer using the arrows at the top.
+- To change an object's layer, select it, click Edit Group and change the layer using the arrows at the top.
 - Editor locking prevents you from deleting or selecting objects in a layer. You can enable this by clicking the "Layer Locking" setting in the settings menu within the editor menu.
 - Select Filter allows you to select objects with specific attributes. You can set these attributes in the delete tab.
 - Select All selects every object in the current editor layer. You can do this by pressing one of three select all buttons in the editor pause menu.
@@ -48,7 +54,7 @@ You can "Lock" editor layers if you have the "Layer Locking" setting enabled (fo
 
 - **Select filter** is a setting you can enable in the editor pause menu. __It allows you to select objects that have specified attributes on them__. You can set these attributes in the delete tab.
 
-youtube [insert organizing objects 4 vid id]
+{{< img src="https://lh3.googleusercontent.com/d/1I7oqwmboW9ocihDCO6Iw-DnzD6jbqQU_" >}}
 
 The top left button is the **Find GroupID** button. It doesn’t have anything to do with the select filter, but __it selects a random object with the targeted ID for you__.
 

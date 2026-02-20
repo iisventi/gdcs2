@@ -1,7 +1,7 @@
 ---
-title: Testing Gameplay
-weight: 111
-draft: true
+title: Testing Levels
+weight: 116
+draft: false
 ---
 ## Guide info
 Short: 6-8 minutes

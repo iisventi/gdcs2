@@ -1,7 +1,7 @@
 ---
 title: Using Channels
-weight: 111
-draft: true
+weight: 118
+draft: false
 ---
 ## Guide info
 Short: 8-10 minutes

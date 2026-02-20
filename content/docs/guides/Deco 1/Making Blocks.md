@@ -1,6 +1,6 @@
 ---
 title: Making Blocks
-weight: 507
+weight: 508
 draft: false
 ---
 {{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (6-8 minutes)

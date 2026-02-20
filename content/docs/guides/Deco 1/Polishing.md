@@ -1,7 +1,7 @@
 ---
 title: Polishing
-weight: 111
-draft: true
+weight: 508
+draft: false
 ---
 ## Guide info
 Short: 4-6 minutes

@@ -1,6 +1,6 @@
 ---
 title: Making Backgrounds
-weight: 508
+weight: 509
 draft: false
 ---
 {{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (7-9 minutes)

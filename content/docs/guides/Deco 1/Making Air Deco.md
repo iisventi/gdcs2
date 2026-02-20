@@ -1,6 +1,6 @@
 ---
 title: Making Air Deco
-weight: 509
+weight: 510
 draft: false
 ---
 {{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (5-7 minutes)

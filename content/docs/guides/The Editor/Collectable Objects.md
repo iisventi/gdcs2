@@ -1,7 +1,7 @@
 ---
 title: Collectable Objects
 weight: 111
-draft: true
+draft: false
 ---
 ## Guide info
 Tiny: 1-3 minutes

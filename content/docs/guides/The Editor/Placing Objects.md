@@ -5,8 +5,8 @@ weight: 101
 draft: false
 
 seo:
-  title: "How to Use the Geometry Dash Editor" # custom title (optional)
-  description: "The basics of how to use Geometry Dash's level editor." # custom description (recommended)
+  title: "Geometry Dash: Placing Objects" # custom title (optional)
+  description: "Part 1 of how to use Geometry Dash's level editor, going over how to navigate the editor, and the build, edit, and delete tabs." # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---

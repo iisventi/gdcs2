@@ -2,16 +2,23 @@
 title: Choosing a Song
 weight: 105
 draft: false
----
-## Guide info
-Short: 7-9 minutes
 
-## TLDR - What this guide covers
+seo:
+  title: "How to Choose a Song in Geometry Dash" # custom title (optional)
+  description: "A short guide to choosing a song for your Geometry Dash level, using Newgrounds, the Music Library, and NONG file replacement." # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
+---
+{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (7-9 minutes)
+
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - There are 3 main ways to use songs in GD: Newgrounds, the music library and NONGs.
 - Newgrounds is the built in way to use songs that aren’t used in official levels.
 - The music library is a list of songs that users can choose for their levels; you can choose songs from a specific artist or genre.
 - NONGs involve replacing a song in GD’s song folder on your device.
 - The start offset dictates what part of the song should start playing when a level begins.
+
+{{< /callout >}}
 
 ** **
 
@@ -21,22 +28,22 @@ Newgrounds is the official website RobTop endorses for songs that aren’t in th
 
 1. Open a level in the editor and locate the cog button in the top right of the screen.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1IlP67nmieM95CK8lKnmu04CL6pszKjYi/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1IlP67nmieM95CK8lKnmu04CL6pszKjYi" >}}
 
-2. By the `Select Song` text, clicking "Custom" instead of "Normal" (normal signifies main level songs) will toggle a button. Click the new `Select Custom Song` button.
+2. By the **Select Song** text, click "Custom" instead of "Normal". Then, click "Select Custom Song".
 
-3. At this stage, there are 2 ways to pick a Newgrounds song. By way of ID, and by way of saved songs. If you have downloaded custom songs used in custom levels, the songs should be saved to GD. Clicking the "Saved" button in the bottom right of the interface will open a list of your saved songs to choose from and use. 
+3. You can choose a Newgrounds song using its ID, or by using your saved songs. If you download custom songs used in levels, the songs should be saved to your device. Clicking the "Saved" button in the bottom right will open a list of your saved songs to choose from and use. 
  - To check which artists are whitelisted, click the blue "Artists" button.
- - To launch newgrounds, click the green `Newgrounds` button.
+ - To launch Newgrounds, click the green "Newgrounds" button.
 
 4. Search for a song that you like on Newgrounds, and open that song's Newgrounds page.
 
-5. To locate the “song ID” required to use a Newgrounds song, simply look at the URL. The song ID is located at the end of the URL as a unique set of numbers (*newgrounds.com/audio/listen/[**string of numbers**]*). Copy those numbers into the textbox and click "Search".
+5. To locate the song ID required to use a Newgrounds song, simply look at the URL. The song ID is located at the end of the URL as a unique set of numbers (*newgrounds.com/audio/listen/[**string of numbers**]*). Copy those numbers into the textbox and click "Search".
  - For example, the Newgrounds link for *At the Speed of Light* by *Dimrain47* is `newgrounds.com/audio/listen/467339`, so the ID is **467339**.
 
 6. Copy those numbers into the textbox and click search. After clicking the search, a card for the song should pop up. Click use to use the song in your level.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1FBgRBMmmDOPjCiC_pHhLi8Xg67CtsBJE/preview?usp=drivesdk></iframe></div>
+{{< youtube 06gFmlNyY0g >}}
 
 # 2: Music Library
 
@@ -44,29 +51,31 @@ The music library is an improved 2.2 feature that will allow the user to pick a 
 
 1. From the GD Editor, click the gear at the top right corner.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1sgssCQISQJJUjJwJN7au2NWS4J5LIm1b/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1sgssCQISQJJUjJwJN7au2NWS4J5LIm1b" >}}
 
-2. Select the “Custom” option.
+2. Select the "Custom" option.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/10N5IoGaeLiGZmrF4RxVfTwO7jRwPsU8M/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/10N5IoGaeLiGZmrF4RxVfTwO7jRwPsU8M" >}}
 
-3. Click the “Select Custom Song” button.
+3. Click the "Select Custom Song" button.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1u40pEtF6FumCuBLMqBRaKjgAJmGpPBUu/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1u40pEtF6FumCuBLMqBRaKjgAJmGpPBUu" >}}
 
-4. Select the “Music Library” button.
+4. Select the "Music Library" button.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1QmQJJfhDHERC07fxFYAkIg3OTB4OLe7F/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1QmQJJfhDHERC07fxFYAkIg3OTB4OLe7F" >}}
 
 5. Select the song you want to use. If you would like to search up a song, press the magnifying glass on the left. You can also scroll down the library and press the pink arrows on the left and the right. Once you have found the song you want, click the blue download button.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1QgJNLnwCzujPDA0l0YoWkxaL97UDBOoZ/preview?usp=drivesdk></iframe></div>
 
-6. After downloading the song, click the “Use” button.
+{{< img src="https://lh3.googleusercontent.com/d/1QgJNLnwCzujPDA0l0YoWkxaL97UDBOoZ" >}}
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1PAbYseY3T7a2kqrnxQPsVmgFcoEpaSew/preview?usp=drivesdk></iframe></div>
+6. After downloading the song, click the "Use" button.
 
-To hear the song as well, click the play button to the right of the “use” button.
+
+{{< img src="https://lh3.googleusercontent.com/d/1PAbYseY3T7a2kqrnxQPsVmgFcoEpaSew" >}}
+
+To hear the song as well, click the play button to the right of the "use" button.
 
 None
 
@@ -98,7 +107,7 @@ When downloading and using a NONG song, you’re basically tricking GD into thin
 
 6. Close the game, or just move to a place in the game where the song can’t play.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1drYWLZTJp4Kwvw-ztRComIjgUBXfwj7H/preview?usp=drivesdk></iframe></div>
+{{< youtube mzXcOG6eVuk >}}
 
 ## Mac (On Steam)
 
@@ -122,7 +131,7 @@ Using NONG songs on Android is a bit different than on Windows or Mac. For this 
 
 1. Download the Android Mod Menu from Italian APK Downloader 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YNF_wk7uMuA" frameborder="0" allowfullscreen></iframe>
+{{< youtube YNF_wk7uMuA >}}
 
 2. Install the APK. On newer phones, locating the file and pressing on it should automatically update GD.
 
@@ -136,31 +145,26 @@ Using NONG songs on Android is a bit different than on Windows or Mac. For this 
 
 7. Go back to the editor, and the song card should have changed to something like the figure below.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1QgEtGOVBZ1UcWCupJEuBjRvkZrTdeNPW/preview?usp=drivesdk></iframe></div>
+{{< youtube 7h6O_v_LN2E >}}
 
 # 4: Changing a Song’s Offset
 
 A song’s **offset** is __where it starts playing in game__. For instance, Bloodbath (which uses *At the Speed of Light*) has an offset of 81 seconds. This means that the game skips the first 81 seconds of the song, and starts playing at the 81 second offset whenever there is a new attempt. Here are the steps to do this.
 
-1. In the GD editor, navigate to the custom song selection page, as detailed in the “Newgrounds” section.
+1. In the GD editor, navigate to the custom song selection page, as detailed in the "Newgrounds" section.
 
 2. Click on the gear icon on the right side of the screen, below the **Help** button.
 
-3. There should be a box labeled “Start Offset” In this box, the song will skip forward `X` seconds ahead in the song - `X` being any number with one decimal point.
+3. There should be a box labeled "Start Offset" In this box, the song will skip forward `X` seconds ahead in the song - `X` being any number with one decimal point.
 
 - e.g. 142.2 will skip 2 minutes and 22.2 seconds ahead in the song. 
-- To test if it is the exact offset you want, click the :MusicPlaytest: music play button (the start button with a music note next to it. If the song starts too far in, decrease `X`. If it doesn't start far enough in, increase `X`.
+- To test if it is the exact offset you want, click the {{< img src="images/GDEmotes/Buttons/MusicPlaytest.png" class="emote">}} music play button (the start button with a music note next to it). If the song starts too far in, decrease `X`. If it doesn't start far enough in, increase `X`.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/10IGXIh2nSKv7NYfAKQtWAZvWX0W5u0yG/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/10IGXIh2nSKv7NYfAKQtWAZvWX0W5u0yG" >}}
 
-4. The “Fade In” and “Fade Out” buttons at the bottom allow for the song to fade in to the level, and fade out once the last block has been passed respectively.
+4. The "Fade In" and "Fade Out" buttons at the bottom allow for the song to fade in to the level, and fade out once the last block has been passed respectively.
 
-<div><iframe src=https://drive.google.com/file/d/17BT-zlLYhFEugNecZS_kmZ93DCSrKoMf/preview?usp=drivesdk></iframe></div>
-
-
-## Return to the [Table of Contents](https://discord.com/channels/414295025883545600/1083170138695667893/1083170138695667893) Here
-
-
+{{< youtube ZFZiChCyjHA >}}
 
 ## Credits
-Created by @Half, @Unknown and @koma5
+Created by @Half and @koma5

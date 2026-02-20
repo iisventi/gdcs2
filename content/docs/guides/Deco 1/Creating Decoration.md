@@ -1,6 +1,6 @@
 ---
 title: Creating Decoration
-weight: 506
+weight: 507
 draft: false
 ---
 {{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Medium** (11-13 minutes)

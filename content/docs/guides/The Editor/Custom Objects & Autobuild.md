@@ -1,7 +1,7 @@
 ---
 title: Custom Objects & Autobuild
-weight: 111
-draft: true
+weight: 114
+draft: false
 ---
 ## Guide info
 Short: 5-7 minutes
