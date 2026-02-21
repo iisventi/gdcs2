@@ -126,3 +126,11 @@ You can use the "Next Free" button to select the next unused color channel, the 
 {{< img src="images/GDEmotes/Buttons/PasteColor.png" class="emote">}} You can use Paste Color to paste an object’s colors to another object.
 
 {{<youtube fGDM86UWd6A>}}
+
+# 6: Edit Special
+
+Some objects have special properties, which are edited in the {{< img src="images/GDEmotes/Buttons/EditSpecial.png" class="emote" >}} tab. This section will give a brief overview of these object types.
+- **Gameplay Objects**: Clicking {{< img src="images/GDEmotes/Buttons/EditSpecial.png" class="emote" >}} on gameplay objects like orbs or portals allows you to **select whether the object can be multi-activated**. 
+- **Teleport Objects**: Clicking {{< img src="images/GDEmotes/Buttons/EditSpecial.png" class="emote" >}} on teleport portals or teleport triggers **opens a menu with options for how the player behaves when teleporting**.
+- **Animated Objects**: Clicking {{< img src="images/GDEmotes/Buttons/EditSpecial.png" class="emote" >}} on rotating objects, such as saws, allows you to **change the rotation speed**. Clicking **Edit Special** on animated objects gives you **more options for editing these animations**, which are discussed in the [Animated Objects](<https://discord.com/channels/414295025883545600/1189378539875741726/1189378539875741726>) guide.
+- **Particle Editor**: Clicking {{< img src="images/GDEmotes/Buttons/EditSpecial.png" class="emote" >}} on the particle object **opens the particle editor menu**.
