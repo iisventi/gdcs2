@@ -46,7 +46,7 @@ Objects with a lower tileset will *ALWAYS* be above objects with a higher tilese
 
 # 2: Groups
 
-Groups are a fundamental system that allows triggers to target certain objects, however more detail will be in the Using IDs guide. For now, we will only cover how to assign groups.
+Groups are a fundamental system that allows triggers to target certain objects. These are explained in depth in the [Using IDs](/docs/guides/the-editor/using-ids/) and [Groups](/docs/guides/triggers-1/groups/) guides. For now, we will only cover how to assign groups.
 
 Here’s how to add groups:
 1. In the middle of the {{< img src="images/GDEmotes/Buttons/EditGroup.png" class="emote" >}} menu, there is a counter labeled "Add Group ID." 
