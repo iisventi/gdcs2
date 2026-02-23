@@ -70,13 +70,13 @@ Material IDs make [Event Link Triggers](/docs/guides/triggers-1/event-link/) act
 
 You may assign a Material ID in the “Extra ID” box of the trigger.
 
-{{< img src="https://lh3.googleusercontent.com/d/1jI04rOydT8YVBtVibW7bOZ_YTiQ957nc" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1Z8aaTQSpimzshT9shW9W7umM1gy2RPZg" >}}
 
 For objects you want to assign a Material ID, go to :EditGroup: Edit Group and then “Extra 2”.
 
-{{< img src="https://lh3.googleusercontent.com/d/1-n_emJ23LP3CSpnCRlXCzXwX0_YICGPw" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1V3ANa3YDDDzLxs69KB80gtDjnEaDC8qZ" >}}
 
-{{< img src="https://lh3.googleusercontent.com/d/1qlPK-SUDGlsZYv2NaHOlJN_WVkWmuxX0" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1UqivtGVN1NPMsG7jlhD1J5dN2hkMWb0x" >}}
 
 In this example you can see two blocks; one has Material ID 1, while the other has Material ID 0. The Extra ID in the Event trigger is set to 1.
 
@@ -87,17 +87,17 @@ Unlike Force IDs, objects with Material ID 0 actually have some interesting appl
 ## Enter Channel IDs
 Enter Channels are only used for enter triggers as shown in the image below. Only blocks with the specified Enter Channel will be affected by a certain Enter trigger. This is also set in :EditGroup: Edit Group’s “Extra 2” config.
 
-{{< img src="https://lh3.googleusercontent.com/d/1LdWXLH0kewfCAxORY0gu2ctaImBu4n8u" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1scCXnL0MdgYING9ko-IWqtpaWXOSWrVQ" >}}
 
 You might notice that these triggers are split into two groups and that’s due to their UI. The UI in group 1 is simple, while group 2 has more factors to tweak which makes a more complex UI.
 
 With the triggers in the first group, you can set their Enter Channel using the “Target Enter Channel” box. Triggers in this category will override each other if you have many of them targeting the same Channel ID.
 
-{{< img src="https://lh3.googleusercontent.com/d/10wRt6mvDhgcwNG6moTcB7zAHAXnAm49I" >}}
+{{< img src="https://lh3.googleusercontent.com/d/16Fgoww8GrgJIVOBOTFyMYU0x13MvQcom" >}}
 
 The triggers in the second category are used for custom enter effects. With these, you can set the Enter Channel ID using the “Enter Channel” box. Triggers in this category can stack when using the same Enter Channel, unless they’re triggers of the same type (such as two Enter Move triggers).
 
-{{< img src="https://lh3.googleusercontent.com/d/1x9q_Gf6LqEngdfZG4ciupickXt6YKkvO" >}}
+{{< img src="https://lh3.googleusercontent.com/d/19l7g_G-DySjAWGk-sczHjf8rn_imamJn" >}}
 
 # 3: Medium complexity IDs
 
@@ -110,25 +110,25 @@ The next set of IDs are easy to grasp on their own, but they also depend on othe
 ## Effect IDs
 Effect IDs are used by Area and Enter triggers. They have four uses depending on the group of triggers they’re used in.
 
-{{< img src="https://lh3.googleusercontent.com/d/1Aejlyv5mEJJOv2kV1vSH0ijS4YrgMQ9v" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1AsKKUBZ1X12_S3z1Ur7EqTy6IDl9sPK6" >}}
 
 Category 1 is the simplest, as these triggers simply stop existing Area and Enter effects. You simply type in the Effect ID to stop any triggers that use that ID.
 
-{{< img src="https://lh3.googleusercontent.com/d/1kg14FLLJVpvS_rd02h74Ez25I--GFfQT" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1LDD-19XT2JETZalYA_UUQ8TVcExWqgbq" >}}
 
-{{< img src="https://lh3.googleusercontent.com/d/1EFElsqqQ1u27E-yiHshBjTTMVpViFl4z" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1zpTLb-5h4mfmYJ-B4mNAWqLxZ5Ri5W_D" >}}
 
 Category 2 contains Enter Effect Triggers which have more variables to tweak. If you give two of the same Enter Effect triggers the same EffectID, the second one will override the first.
 
-{{< img src="https://lh3.googleusercontent.com/d/1--aPpxftYYTs3hbimXZpBUrF_p24TnwU" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1_NTgu9GXADrMrmZpsS3dIgOAC9o9_9Ma" >}}
 
 Group 3 contains Area Triggers. As before, if you give two of the same Area triggers the same EffectID, the second one will override the first. You can set the EffectID on the second page of each Area Trigger. This is not required to set up these triggers, but it gives you more control when using the fourth category of these triggers.
 
-{{< img src="https://lh3.googleusercontent.com/d/1atDrtCxE1JNqUEjpMyEKASnXkqRUIup_" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1pzoqTeU4_klBOACD8TtSUllADzoi7lp-" >}}
 
 The last group contains Edit Area Triggers. You must enable “Use EID” to use EffectIDs instead of Group IDs. This lets you edit the properties of existing Area Triggers with those EffectIDs.
 
-{{< img src="https://lh3.googleusercontent.com/d/13q9ngQAfro2teQDi-qMM3zhhYY7IdPGI" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1AhTnTOpH4EK5896QJqQUksAvbuJEJr8Z" >}}
 
 Another crucial note about EffectIDs is that Area and Enter triggers can share these IDs. Since the Edit Area & Edit Enter triggers are separate, these triggers can occupy the same ID and be stopped separately.
 
@@ -195,7 +195,7 @@ As you read through the more complex IDs, you may realize that the editor is not
 
 Luckily, we have a [logistics template](https://docs.google.com/spreadsheets/d/1ULxPkpFOVAw6Z9c__JgNq_5O244WofHKSkG9pvTMW2s/edit) specifically for keeping track of IDs, so that you can organize your setups confidently without second guessing yourself. This is especially useful for collabs where creators need to be mindful with the IDs they’ve already used.
 
-{{< img src="https://lh3.googleusercontent.com/d/1zjCJiNFYAmm2SBpgim3-uKsOOV_gcesw" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1Pxwi2vVkIr3J5ipq8dWa6QAgB-HFLZub" >}}
 
 Of course, this is optional. Unless you have an ambitious project where you need a variety of IDs for your details or trigger setups, let this template serve as a guide.
 
