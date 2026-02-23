@@ -2,6 +2,12 @@
 title: Using IDs
 weight: 117
 draft: false
+
+seo:
+  title: "Every ID Type in Geometry Dash" # custom title (optional)
+  description: "This explains every type of ID in the Geometry Dash level editor, such as color channels, Group IDs, and more."
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
 ---
 ## Guide info
 Medium: 10-12 minutes
@@ -175,14 +181,14 @@ You can change trigger channels using the [Arrow Trigger](/docs/guides/triggers-
 ## Group IDs (again)
 To come full circle, let’s revisit group IDs once more. Because of how versatile they are; this makes them the simplest and the most complex ID at the same time. Not only are they necessary for many of the triggers used in this game, but they also come with many different labels:
 
-Target ID
-Animation Group ID
-True ID/False ID
-Follow ID
-State ON/State OFF
-Parent ID
-Spawn ID
-Position ID
+- Target ID
+- Animation Group ID
+- True ID/False ID
+- Follow ID
+- State ON/State OFF
+- Parent ID
+- Spawn ID
+- Position ID
 
 These may look like different IDs entirely, but they are actually describing group IDs, based on the trigger you see them used for.
 
