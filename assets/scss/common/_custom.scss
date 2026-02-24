@@ -4,16 +4,19 @@ img.emote {
     display: inline;
     width: 1.55rem;
     height: auto;
+    filter: drop-shadow(5px 5px);
 }
 
 img.smallemote {
     display: inline;
     width: 1rem;
     height: auto;
+    filter: drop-shadow(3px 3px);
 }
 
 img.largeemote {
     display: inline;
     width: 4rem;
     height: auto;
+    filter: drop-shadow(9px 9px);
 }

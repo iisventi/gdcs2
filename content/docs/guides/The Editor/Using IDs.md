@@ -4,7 +4,7 @@ weight: 117
 draft: false
 
 seo:
-  title: "Every ID Type in Geometry Dash" # custom title (optional)
+  title: "Every Type of ID in Geometry Dash Explained" # custom title (optional)
   description: "This explains every type of ID in the Geometry Dash level editor, such as color channels, Group IDs, and more."
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
@@ -46,7 +46,7 @@ These IDs are straightforward to set up and only rarely depend on other IDs to w
 6. Enter Channel IDs
 
 ## Color IDs
-Color IDs refer to the color channels when you press :EditObject: Edit Object. If you give your object a specific color channel, it will show that specific color.
+Color IDs refer to the color channels when you press {{< img src="images/GDEmotes/Buttons/EditObject.png" class="emote" >}} Edit Object. If you give your object a specific color channel, it will show that specific color.
 
 Of course, the type of objects you use will affect how the color appears. Some objects only have a base color or a detail color, and others will appear brighter, darker, or more transparent because of how the base sprite was made. This is the oldest ID type in the game.
 
@@ -66,20 +66,20 @@ Force IDs are only used in force blocks. Blocks with the same force ID will not 
 {{< youtube tkvUBGYX0bE >}}
 
 ## Song Channel IDs
-These IDs allow you to add multiple songs in the same level. Depending on how you set up the [Song or Edit Song trigger](/docs/guides/triggers-1/song-edit-song/), the songs can be switched or played simultaneously.
+These IDs allow you to add multiple songs in the same level. Depending on how you set up the {{< img src="images/GDEmotes/Triggers/SongTrigger.png" class="emote" >}} [Song or Edit Song trigger](/docs/guides/triggers-1/song-edit-song/), the songs can be switched or played simultaneously.
 
 ## Animation IDs
 
-Animation IDs give monsters different expressions in the animate trigger. If you want the bat monster to sleep, for example, you would simply type the animation ID which corresponds with the bat’s sleeping animation. The [Animate Trigger](/docs/guides/triggers-1/animate/) guide details the many possible expressions that you can give.
+Animation IDs give monsters different expressions in the animate trigger. If you want the bat monster to sleep, for example, you would simply type the animation ID which corresponds with the bat’s sleeping animation. The {{< img src="images/GDEmotes/Triggers/AnimateTrigger.png" class="emote" >}} [Animate Trigger](/docs/guides/triggers-1/animate/) guide details the many possible expressions that you can give.
 
 ## Material IDs
-Material IDs make [Event Link Triggers](/docs/guides/triggers-1/event-link/) activate when you interact with objects of the specified material ID.
+Material IDs make {{< img src="images/GDEmotes/Triggers/EventLinkTrigger.png" class="emote" >}} [Event Link Triggers](/docs/guides/triggers-1/event-link/) activate when you interact with objects of the specified material ID.
 
 You may assign a Material ID in the “Extra ID” box of the trigger.
 
 {{< img src="https://lh3.googleusercontent.com/d/1Z8aaTQSpimzshT9shW9W7umM1gy2RPZg" >}}
 
-For objects you want to assign a Material ID, go to :EditGroup: Edit Group and then “Extra 2”.
+For objects you want to assign a Material ID, go to {{< img src="images/GDEmotes/Buttons/EditGroup.png" class="emote" >}} Edit Group and then “Extra 2”.
 
 {{< img src="https://lh3.googleusercontent.com/d/1V3ANa3YDDDzLxs69KB80gtDjnEaDC8qZ" >}}
 
@@ -92,7 +92,7 @@ In this example you can see two blocks; one has Material ID 1, while the other h
 Unlike Force IDs, objects with Material ID 0 actually have some interesting applications and bugs. For instance, Material IDs don’t work on objects like orbs or portals. Additionally, if you have triggers for “Tiny/Feather/Soft/Normal or Hard landing”, the trigger will only activate when you hit the ground, not for merely touching the block.
 
 ## Enter Channel IDs
-Enter Channels are only used for enter triggers as shown in the image below. Only blocks with the specified Enter Channel will be affected by a certain Enter trigger. This is also set in :EditGroup: Edit Group’s “Extra 2” config.
+Enter Channels are only used for enter triggers as shown in the image below. Only blocks with the specified Enter Channel will be affected by a certain Enter trigger. This is also set in {{< img src="images/GDEmotes/Buttons/EditGroup.png" class="emote" >}} Edit Group’s “Extra 2” config.
 
 {{< img src="https://lh3.googleusercontent.com/d/1scCXnL0MdgYING9ko-IWqtpaWXOSWrVQ" >}}
 
@@ -115,7 +115,7 @@ The next set of IDs are easy to grasp on their own, but they also depend on othe
 4. Gradient IDs
 
 ## Effect IDs
-Effect IDs are used by Area and Enter triggers. They have four uses depending on the group of triggers they’re used in.
+Effect IDs are used by {{< img src="images/GDEmotes/Triggers/AreaMove.png" class="emote" >}} [Area](/docs/guides/triggers-1/area-triggers/) and {{< img src="images/GDEmotes/Triggers/EnterMove.png" class="emote" >}} [Enter](/docs/guides/triggers-1/enter-triggers/) triggers. They have four uses depending on the group of triggers they’re used in.
 
 {{< img src="https://lh3.googleusercontent.com/d/1AsKKUBZ1X12_S3z1Ur7EqTy6IDl9sPK6" >}}
 
@@ -133,25 +133,25 @@ Group 3 contains Area Triggers. As before, if you give two of the same Area trig
 
 {{< img src="https://lh3.googleusercontent.com/d/1pzoqTeU4_klBOACD8TtSUllADzoi7lp-" >}}
 
-The last group contains Edit Area Triggers. You must enable “Use EID” to use EffectIDs instead of Group IDs. This lets you edit the properties of existing Area Triggers with those EffectIDs.
+The last group contains Edit Area Triggers. **You must enable “Use EID” to use EffectIDs instead of Group IDs.** This lets you edit the properties of existing Area Triggers with those EffectIDs.
 
 {{< img src="https://lh3.googleusercontent.com/d/1AhTnTOpH4EK5896QJqQUksAvbuJEJr8Z" >}}
 
 Another crucial note about EffectIDs is that Area and Enter triggers can share these IDs. Since the Edit Area & Edit Enter triggers are separate, these triggers can occupy the same ID and be stopped separately.
 
 ## Block IDs
-BlockIDs are assigned to collision blocks, which are used by the Collision and Instant Collision triggers. You’ll need at least one BlockID to set up these triggers – usually two, but you can also use the player’s hitbox as well. When using a trigger with two BlockIDs, one of them needs to have “Dynamic Block” enabled.
+BlockIDs are assigned to collision blocks, which are used by the {{< img src="images/GDEmotes/Custom Guide Icons/Grade 1/CollisionInstantCollision.png" class="emote" >}} [Collision and Instant Collision triggers](/docs/guides/triggers-1/collision-instant-collision/). You’ll need at least one BlockID to set up these triggers – usually two, but you can also use the player’s hitbox as well. When using a trigger with two BlockIDs, one of them needs to have “Dynamic Block” enabled.
 
 ## Unique IDs / SFX Group IDs
-UniqueIDs and SFXGroupIDs are used for the [SFX and Edit SFX triggers](/docs/guides/triggers-1/sfx-edit-sfx/). Just like EffectIDs, they let you edit existing SFX triggers by specifying an ID to modify. The difference between them is that multiple SFX triggers can share a SFX Group, but only one trigger within a SFX Group can have a Unique ID.
+UniqueIDs and SFXGroupIDs are used for the {{< img src="images/GDEmotes/Triggers/SFXTrigger.png" class="emote" >}} [SFX and Edit SFX triggers](/docs/guides/triggers-1/sfx-edit-sfx/). Just like EffectIDs, they let you edit existing SFX triggers by specifying an ID to modify. The difference between them is that multiple SFX triggers can share a SFX Group, but only one trigger within a SFX Group can have a Unique ID.
 
 When combined with a one object group, you can adjust the sound’s proximity, where the noise changes depending on the player’s distance.
 
 ## Gradient IDs
 
-GradientIDs allow you to construct multiple gradient shapes when using “Vertex Mode”. Depending on the shape, you will end up using at least 3 group IDs for every 1 gradient ID used.
+GradientIDs allow you to construct multiple gradient shapes when using “Vertex Mode” in the {{< img src="images/GDEmotes/Triggers/GradientTrigger.png" class="emote" >}} [Gradient trigger](/docs/guides/triggers-1/gradient/). Depending on the shape, you will end up using at least 3 group IDs for every 1 gradient ID used.
 
-Unlike effect IDs, you can only assign one gradient ID for one gradient trigger. Multiple gradients occupying the same gradient ID will disable the gradient altogether.
+Unlike effect IDs, you can only assign one gradient ID for one gradient trigger. If multiple gradients use the same gradient ID, the most recently activated gradient will override the others.
 
 Additionally, note that GradientIDs have a maximum value of 999, unlike other IDs.
 
@@ -163,24 +163,24 @@ These IDs have many varied applications, but can also be tedious to set up. Make
 3. Trigger Channels
 
 ## Control IDs
-ControlIDs only targets triggers and gameplay objects. They limit the groups that a trigger targets, much like how you use groups for the same purpose. This can help save groups you’d otherwise use for these objects.
+ControlIDs only target triggers and gameplay objects. They limit the groups that a trigger targets, much like how you use groups for the same purpose. This can help save groups you’d otherwise use for these objects.
 
-For example, when using a Stop trigger, you can use Control IDs to stop specific triggers instead of giving them additional groups. Another use for them is in Advanced Follow Triggers where instead of targeting groups, you target control IDs.
+For example, when using a {{< img src="images/GDEmotes/Triggers/StopTrigger.png" class="emote" >}} [Stop trigger](/docs/guides/triggers-1/stop/), you can use Control IDs to stop specific triggers instead of giving them additional groups. Another use for them is in Advanced Follow Triggers where instead of targeting groups, you target control IDs.
 
 ## Item IDs/Timer IDs
 Item IDs act like a variable. You use these IDs to store numbers that can then be compared with a specific condition in the level.
 
-Arguably, Item IDs have the most use cases because the triggers they connect with have the most variables to tweak. Update 2.1 added the Pickup, Count, and Instant Count triggers, and 2.2 added Item Edit, Item Compare and Item Persistence.
+Arguably, Item IDs have the most use cases because the triggers they connect with have the most variables to tweak. Update 2.1 added the {{< img src="images/GDEmotes/Triggers/PickupTrigger.png" class="emote" >}} [Pickup](/docs/guides/triggers-1/pickup/), {{< img src="images/GDEmotes/Custom Guide Icons/Grade 1/CountInstantCount.png" class="emote" >}} [Count, and Instant Count triggers](/docs/guides/triggers-1/count-instant-count/), and 2.2 added {{< img src="images/GDEmotes/Custom Guide Icons/Grade 1/ItemEditCompPers.png" class="emote" >}} [Item Edit, Item Compare and Item Persistence](/docs/guides/triggers-1/item-edit-comp-pers/).
 
-Timer IDs are another type of Item ID used for the Time, Time Event, and Time Control triggers. Their main feature is that they can take decimals up to the hundredths place, while Item IDs can only take whole numbers.
+Timer IDs are another type of Item ID used for the {{< img src="images/GDEmotes/Custom Guide Icons/Grade 1/TimeEventControl.png" class="emote" >}} [Time, Time Event, and Time Control triggers](/docs/guides/triggers-1/time-time-event-time-control/). Their main feature is that they can take decimals up to the hundredths place, while Item IDs can only take whole numbers.
 
 ## Trigger Channels
 Trigger Channels act like a separate limiter on objects. When you’re playing through a level normally, the only triggers that will activate normally are ones which have the active Trigger Channel. This is explained further in the [Using Channels](/docs/guides/the-editor/using-channels/) guide.
 
-You can change trigger channels using the [Arrow Trigger](/docs/guides/triggers-1/reverse-arrow/).
+You can change trigger channels using the {{< img src="images/GDEmotes/Triggers/ArrowTrigger.png" class="emote" >}} [Arrow Trigger](/docs/guides/triggers-1/reverse-arrow/).
 
 ## Group IDs (again)
-To come full circle, let’s revisit group IDs once more. Because of how versatile they are; this makes them the simplest and the most complex ID at the same time. Not only are they necessary for many of the triggers used in this game, but they also come with many different labels:
+To come full circle, let’s revisit group IDs once more. Because of their use cases, they are basically the simplest and most complex ID at the same time. Not only are they necessary for many of the triggers used in this game, but they also come with many different labels:
 
 - Target ID
 - Animation Group ID

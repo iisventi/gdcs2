@@ -14,7 +14,7 @@ seo:
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Z layer and Z order let you place objects on top of or behind each other.
 - As of Update 2.2, tilesets override Z order when objects share the same Z layer.
-- Groups are used by triggers and can be added in the :EditGroup: menu.
+- Groups are used by triggers and can be added in the Edit Group menu.
 - Two extra tabs exist to further tweak your objects.
 - Anim serves as a shortcut to creating keyframes.
 - Edit Object lets you change an object’s color.
@@ -109,7 +109,7 @@ Keep in mind that **this ONLY WORKS if you have a parent group**. Check out the 
 
 # 4: Edit Object
 
-This is where __you can set object colors. You can also set what text objects say in this menu.__
+{{< img src="images/GDEmotes/Buttons/EditObject.png" class="emote" >}} This is where __you can set object colors. You can also set what text objects say in this menu.__
 
 Objects will either have a "Base" color, a "Detail" color, or both. This doesn’t mean much at this stage; just know that some objects can have two color channels and some cannot.
 

@@ -1,7 +1,13 @@
 ---
 title: Item Edit, Comp, & Pers
-weight: 347
-draft: true
+weight: 345
+draft: false
+
+seo:
+  title: "How to Use Item Edit, Compare, and Persist" # custom title (optional)
+  description: "A short guide to using the Item Edit, Item Compare, and Item Persist triggers in Geometry Dash."
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
 ---
 {{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (4-6 minutes)
 
@@ -19,7 +25,7 @@ The Item Edit trigger lets you make simple equations using the values stored in 
 
 To start, you need at least one existing Item ID. Ideally, these IDs should already be modified by a Pickup trigger so its value is not zero.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1_6Ki7c4fn7SIgHPALg3Obw_68TQiB4Nw" >}}
 
 ItemID1 & ItemID2 are the IDs containing the values you want to use in your equation. The Target ItemID is the ID that stores the result of the equation.
 
@@ -32,13 +38,13 @@ The checkboxes correspond to each Item ID’s type:
 
 Once your IDs are set up, you’ll get an equation in the box.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1J7zEIloKWa-w4T858WzV1OkePLo5yLh3" >}}
 
 Use the first three green buttons to manipulate the equation. The first button modifies how the new values affect the Target ID, the second modifies the operation between ID1 and ID2, and the third chooses to either multiply or divide by the value in the “Mod” slider.
 
 The 4th and 5th options choose between absolute value or negative value.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1pTx-GsHOdYoPab2g7W6fbLFKqV1EFi8B" >}}
 
 - Equals (=) - Equals sign; there can be only one in the equation.
 - Addition (+) - Adds the two Item IDs.
@@ -52,7 +58,7 @@ None
 
 You can set the Target ID to be an Item ID, Timer value, or points.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1nFSC1n0hpjZG3CadRTNuoWy52sVxdiEt" >}}
 
 The “NA” options allow for rounding:
 - Round (RND) - Rounds numbers to the nearest integer. `0.4` rounds to `0`, while `0.5` goes to `1`.
@@ -61,13 +67,13 @@ The “NA” options allow for rounding:
 
 > Note: Be careful when taking the floor or ceiling of negative numbers, as they may not do what you would expect. For example, the floor of `2.5` is `2`, but the floor of `-2.5` is `-3` because `-3` is less than `-2.5`.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1cr-E24ITXEyuTeZ15pJ5wzc1QO9klHyR/preview?usp=drivesdk></iframe></div>
+{{< youtube SG0LNJ_Omvw>}}
 
 Item Edit also allows you to do complex algorithms like the Fibonacci Sequence and Recursion.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1KAPYPFq3-iCQp262z3OZK6SuC4UUvog-/preview?usp=drivesdk></iframe></div>
+{{< youtube rupPPGXXYos>}}
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1UFkPqKdwt-OYbQb9oLDMrGORxz20PpRL/preview?usp=drivesdk></iframe></div>
+{{< youtube O8doXySQH9A>}}
 
 # 2: Item Compare (Item Comp)
 
@@ -80,7 +86,7 @@ The options in this trigger are very similar to Item Edit; the values from two I
 - FalseID - the ID that activates if the comparison is false.
 - Tol - the allowed margin of error for the True and False ID conditions.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1FEyfics0P0rjGuZe0fAzFQUov3alVUMr" >}}
 
 The modification options and ID types are the same as well, but the differences come in the operations it lets you perform. These operations are **relational** and __compare values instead of manipulating them__:
 - Equals (==) - I1 must equal I2 in value.
@@ -90,13 +96,13 @@ The modification options and ID types are the same as well, but the differences 
 - Greater than or equal to (>=) - I1 must be greater than or equal to I2.
 - Not equals (!=) - I1 must not equal I2.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1FKS5-D9AIZh3eB5AhJahbYtXEJXXtZUT/preview?usp=drivesdk></iframe></div>
+{{< youtube FSBUYABrU4w >}}
 
 # 3: Persistent Item (Item Pers)
 
 The Item Pers trigger lets Item ID values remain the same after the player dies. This basically acts as a replacement for the Attempt-Based Data guides from 2.1.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1gL9eh-cBKJwAK6FRibY0EWYj0holzW6K" >}}
 
 The checkboxes provide options for the Item ID:
 - Timer - select if the Item ID is a timer item counter.
@@ -104,13 +110,10 @@ The checkboxes provide options for the Item ID:
 - Target All - targets every persistent item at once.
 - Reset - reset the Item ID’s value.
 
-<div><iframe src=https://drive.google.com/file/d/1jvv4hqmjd0Y5A-_lx7aCAVgnU364kFyL/preview?usp=drivesdk></iframe></div>
+{{< youtube Hwx1Q1-nGzI >}}
 
-
-
-**Video: **https://youtu.be/BT8PyW4iG0s?si=-qyr8apR7O4HARIP
-
-
+**Video:**
+{{< youtube BT8PyW4iG0s >}}
 
 ## Credits
 Created by @Vexilo and @koma5
