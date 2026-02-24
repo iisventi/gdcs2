@@ -9,14 +9,15 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-## Guide info
-Medium: 10-12 minutes
+{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Medium** (10-12 minutes)
 
-## TLDR - What this guide covers
-- IDs give objects a specific role to do inside a level.
-- Groups are the most common ID with the most versatile use cases as they can also assist other IDs.
-- Depending on the setup’s complexity, you may end up integrating multiple types of IDs.
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+- IDs give objects specific roles in levels.
+- Groups are the most common and versatile ID, and they can also assist other IDs.
+- Depending on your level's complexity, you may end up integrating multiple types of IDs.
 - To keep track of the IDs you’ve used, especially for highly complex setups, you can mark them down in the provided logistics template.
+
+{{< /callout >}}
 
 ** **
 
