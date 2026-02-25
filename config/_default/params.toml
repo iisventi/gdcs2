@@ -1,14 +1,10 @@
 # Hugo
-title = "Geometry Dash Creator School"
-description = "Guides, documentation, and advice for creators in Geometry Dash."
-images = ["Banner2_Small.png"]
+title = "My Docs"
+description = "Congrats on setting up a new Doks project!"
+images = ["cover.png"]
 
 # mainSections
 mainSections = ["docs"]
-
-# Add-ons
-[add_ons]
-  docSearch = false # false (default) or true
 
 # Doks (@thulite/doks-core)
 [doks]
@@ -30,11 +26,11 @@ mainSections = ["docs"]
   searchExclKinds = [] # list of page kinds to exclude from search indexing (e.g. ["home", "taxonomy", "term"] )
   searchExclTypes = [] # list of content types to exclude from search indexing (e.g. ["blog", "docs", "legal", "contributors", "categories"])
   showSearch = [] # [] (all pages, default) or homepage (optionally) and list of sections (e.g. ["homepage", "blog", "guides"])
-  indexSummary = true # true or false (default); whether to index only the `.Summary` instead of the full `.Content`; limits the respective JSON field size and thus increases loading time
+  indexSummary = false # true or false (default); whether to index only the `.Summary` instead of the full `.Content`; limits the respective JSON field size and thus increases loading time
 
   ## Search results
   showDate = false # false (default) or true
-  showSummary = false # true (default) or false
+  showSummary = true # true (default) or false
   searchLimit = 99 # 0 (no limit, default) or natural number
 
   # Global alert
@@ -46,7 +42,7 @@ mainSections = ["docs"]
 
   # Nav
   sectionNav = ["docs"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
-  toTopButton = true # false (default) or true
+  toTopButton = false # false (default) or true
   breadcrumbTrail = false # false (default) or true
   headlineHash = true # true (default) or false
   scrollSpy = true # true (default) or false
@@ -72,10 +68,10 @@ mainSections = ["docs"]
   imageSingle = true # true (default) or false
 
   # Repository
-  editPage = true # false (default) or true
-  lastMod = true # false (default) or true
+  editPage = false # false (default) or true
+  lastMod = false # false (default) or true
   repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
-  docsRepo = "https://github.com/komatic5/gdcs2/"
+  docsRepo = "https://github.com/h-enk/doks"
   docsRepoBranch = "main" # main (default), master, or <branch name>
   docsRepoSubPath = "" # "" (none, default) or <sub path>
 
@@ -85,10 +81,10 @@ mainSections = ["docs"]
   # backGround = "yellowgreen"
   ## Dark theme
   # textDark = "#dee2e6" # "#dee2e6" (default), "#dee2e6" (orignal), or custom color
-  accentDark = "#0fc7ff" # "#5d2f86" (default), "#5d2f86" (original), or custom color
+  # accentDark = "#5d2f86" # "#5d2f86" (default), "#5d2f86" (original), or custom color
   ## Light theme
   # textLight = "#1d2d35" # "#1d2d35" (default), "#1d2d35" (orignal), or custom color
-  accentLight = "#edca00" # "#8ed6fb" (default), "#8ed6fb" (orignal), or custom color
+  # accentLight = "#8ed6fb" # "#8ed6fb" (default), "#8ed6fb" (orignal), or custom color
 
   # [doks.menu]
   #   [doks.menu.section]
@@ -132,9 +128,9 @@ mainSections = ["docs"]
   [seo.schemas]
     type = "Organization" # Organization (default) or Person
     logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
-    name = "Geometry Dash Creator School" # Name of Organization or Person
-    sameAs = ["https://github.com/komatic5/gdcs2"] # E.g. ["https://github.com/thuliteio/thulite", "https://fosstodon.org/@thulite"]
-    images = ["Banner2_Small.png"] # ["cover.png"] (default)
+    name = "Thulite" # Name of Organization or Person
+    sameAs = [] # E.g. ["https://github.com/thuliteio/thulite", "https://fosstodon.org/@thulite"]
+    images = ["cover.png"] # ["cover.png"] (default)
     article = [] # Article sections
     newsArticle = [] # NewsArticle sections
     blogPosting = ["blog"] # BlogPosting sections
