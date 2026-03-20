@@ -27,9 +27,13 @@ The best way to do this is to use the objects in-game. As such, we’ll give som
 
 ## Lines and Rectangles
 
+{{< img-grid >}}
+
 {{< img src="https://lh3.googleusercontent.com/d/1lrE1posiNmR2B87qCTsLb17VUQJMVVk7" >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1HsVchwqBrfef-I3GBFcCS-suzvi-g0D_" >}}
+
+{{< /img-grid >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1x55clh3QLIj3RaPFRTjvMX2XAZq7A__C" >}}
 
@@ -45,9 +49,13 @@ Many of GD’s older assets – specifically the ones from before 1.9 – have r
 
 If you’ve read the [previous guide](/docs/guides/deco-1/detail-objects/) this will be fairly self-explanatory. You can use objects like the ones below to make circles and curves; some will be more beneficial than the default lines too.
 
-{{< img src="https://lh3.googleusercontent.com/d/13Nu22c1D-UNjgId02R8ZVgr-crwGal6S" >}}
+{{< img-grid >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/13Nu22c1D-UNjgId02R8ZVgr-crwGal6S" >}}
+
+{{< img src="https://lh3.googleusercontent.com/d/11l34BxZ-F_JPmYr7qcnlZD-RkRhZrUef" >}}
+
+{{< /img-grid >}}
 
 You can also use the text objects, found in the Orb tab - this lets you do a lot of things as text is versatile. Be aware, however, that this largely depends on the font you choose.
 
@@ -81,9 +89,13 @@ Here's how to fill in a shape using pre-existing objects:
 
 1. Take your shape and freehand the outline using thicker objects.
 
+{{< img-grid >}}
+
 {{< img src="https://lh3.googleusercontent.com/d/1bbjEyMXwvz70zRfzfF4wDrjvjBa3No8Q" >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1Mxxqt0CmROYbM8SvbZ95wPAay2K862Zk" >}}
+
+{{< /img-grid >}}
 
 2. Fill in the rest of the space using large objects. You may have to use :FreeMove: Free Move, :Rotate: Rotate, and :Scale: Scale, especially when filling in small spaces.
 

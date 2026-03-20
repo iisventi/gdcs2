@@ -195,9 +195,13 @@ Think of this like making a house. You can't get started on buying furniture bef
 
 Making basic shapes is covered in a [later guide](/docs/guides/deco-1/fill-1) – in fact, there are [two of them](/docs/guides/deco-1/fill-2). For now, I used squares as my basic shapes, and used a few shades of blue for the basic colors.
 
+{{< img-grid >}}
+
 {{< img src="https://lh3.googleusercontent.com/d/1Ic1gsaww1OHriOFQxsBp5iLyI4x0l77k" >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1BWEAPLJ5LVklUoMMasEPpeBaKnGHykzv" >}}
+
+{{< /img-grid >}}
 
 4. Create **details and complexity** for your deco.
 

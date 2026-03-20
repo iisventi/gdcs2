@@ -28,9 +28,13 @@ There are two main types of gradients we’ll talk about in this lesson: Exterio
 
 Some examples of these are in `Deadlocked` by `Robtop` and `Culuc`'s part in `Edge of Destiny`.
 
+{{< img-grid >}}
+
 {{< img src="https://lh3.googleusercontent.com/d/1oSh5RnuTg1MET-_WbrTgIwawjp47m3Sx" >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1yYW0o-fdzqhDrty6AgGrGOdMoSfuTL7t" >}}
+
+{{< /img-grid >}}
 
 **Interior Gradients** __transition from one color into a new one__. There are three main types of these.
 
@@ -48,12 +52,13 @@ Some examples of these are in `Deadlocked` by `Robtop` and `Culuc`'s part in `Ed
 
 Some examples of these are `Woom`'s part in `Koenigstein` (inside the blocks), and `Xender Game`'s part in `Dream Flower`.
 
+{{< img-grid >}}
+
 {{< img src="https://lh3.googleusercontent.com/d/1mIZEYhM6PcgaanbCnfNYnfq1xtkVG-iq" >}}
-*Woom's part in Koenigstein.*
 
 {{< img src="https://lh3.googleusercontent.com/d/1llIQDADqdVmJbtGG-dcLgWM3n098jJka" >}}
-*Xender Game's part in Dream Flower.*
 
+{{< /img-grid >}}
 
 # 2: Making Gradients
 
@@ -74,21 +79,29 @@ There are two main ways of making custom gradients.
 
 The first method works as follows: you start by defining the borders of the colors using hard edges, then use glow to soften that edge and make a gradient. This makes a smooth gradient but if you don’t space out the glow evenly, it can look very choppy.
 
+{{< img-grid >}}
+
 {{< img src="https://lh3.googleusercontent.com/d/1UnvOBkLcDPDWNox1BvlACn1DfIGK-cn2" >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1i25tKNe6DNs0fBGyB0mL2UA90kh0bTSZ" >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1aS7n18PpidIyrQnX3vRu1pyjjCC_ak4j" >}}
 
+{{< /img-grid >}}
+
 The second technique uses 'afterimages'.
 
 If you select the objects you’re using and make copies of them, you can move these objects a bit and alter their opacity to make a gradient. This can be faster than the prior method, but is a lot more object intensive as well.
+
+{{< img-grid >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1q3jRliO3FxkdiB6bWMOillHZBMiydC1R" >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1faq9iaDxzXW8GreGl1_C4i23-uD3EVMK" >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1xuOH4e2KQarV0j4NRg-SCIIb8q6Ck6MJ" >}}
+
+{{< /img-grid >}}
 
 # 3: Tips For Using Gradients
 
@@ -99,4 +112,3 @@ Additionally, you should play around with how you use gradients. You can stack t
 {{< img src="https://lh3.googleusercontent.com/d/1nEYCtL87Yd79Y-dq7dwbbwiYsmdFIp9T" >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1rIscaXtVmqIDOedZdCm6yQyzhhbP4kGQ" >}}
-

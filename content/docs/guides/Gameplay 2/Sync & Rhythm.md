@@ -62,17 +62,27 @@ Other movements like structures help as well, but player movements come first. Y
 **Example**<br>
 Visual sync is probably the most important towards creating sync, even levels with very little clicks can feel good by matching the visuals with its song. For example, VINDICATION by Chunlv1 consists of only a single hold input, and yet it’s still very synced by using pads, slopes, custom icon movements, etc.
 
+{{< youtube xaEK08gIse0 >}}
+
 Looking at VINDICATION's pad usage, for example, you can instantly see how stronger beats have bigger movements and weaker beats have weaker movements.
+
+{{< img-grid >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1j7lrO1Zmti2UGs7N05dpZC5DxC0okD6S" >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1n3Trib1DRlDGmQXSxBUT-Smg6VVEEY3t" >}}
 
+{{< /img-grid >}}
+
 With that said, this rule isn't set in stone. We can also see beats being represented by other small movements here:
+
+{{< img-grid >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1iqXD9vJrk-T6JvgUPzqqo2pFGMCf03Pb" >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1cGcZy1q6rHlr7sUhhlldBcT_lpQcumYg" >}}
+
+{{< /img-grid >}}
 
 Now that we’ve covered the fundamental theory behind sync, let’s delve into the details.
 
@@ -94,9 +104,9 @@ The Fallen Land from Xenoblade Chronicles 1 has interchanging oboe and violin el
 The aim is to instantly distinguish the two elements and feel like you’re playing the song and its instruments, rather than playing a level that happens to have background noise.
 
 **Example**<br>
-Let’s look at how @aleph uses sound division to effectively represent the double melodies of this song, Wir Fliegen from Xenoblade Chronicles X.
+Let’s look at how Aleph uses sound division to effectively represent the double melodies of this song, Wir Fliegen from Xenoblade Chronicles X.
 
-(video)
+{{<youtube KHXR4lkKD2E >}}
 
 We have the main melody, which is what all the clicks sync to, as well as the periodic electric guitars.
 
@@ -123,6 +133,8 @@ This mismatch between player click and path can clutter the quality of your play
 Direction can also represent pitch, depending on what you want to do, so this is more of a tool to create nuance and subtle satisfaction. It's not the most impactful factor but you can use it to influence your level.
 
 At the 0:54 timestamp for VINDICATION by Chunlv1, it's all just the wave gamemode. In spite of that, every strong beat has a sharp turn and the non-beats are mostly at shallow angles.
+
+{{< youtube id="xaEK08gIse0" start=54 >}}
 
 ## Player Path
 
@@ -226,9 +238,13 @@ For example, Echoes of Memoria by NauticusGD broke its repetition leading to dra
 
 Counting the notes of each phrase, you'll see that the player always jumps on the sixth beat.
 
+{{< img-grid >}}
+
 {{< img src="https://lh3.googleusercontent.com/d/1zCGyblfR5HEgy3LilJlkeqd0fcFEcg1S" >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1w9cMwhN_clv_aSdcVxt1udmjUTinavj-" >}}
+
+{{< /img-grid >}}
 
 However in the very next phrase, the player clicks weirdly between 4-5 and 5-6, not only being slightly offsync which will throw the player off, but it’s two clicks instead of one which creates a kind of random input.
 
@@ -262,7 +278,7 @@ Of course if the player has time to process your repetition and is able to notic
 
 For example, in Tet's Making Sync Exercise,
 
-(video)
+{{< youtube RvjeBo-K8Ws>}}
 
 The entire video is split into A-B-A-B, as you can tell when the song changes instruments and speed.
 
@@ -278,9 +294,7 @@ This is a small detail, not one that would make or break the part, yet just furt
 
 Answer: <span style="color: gray;">*the 2nd half of the B sections (or the D mini-sections) are slower, leading into either an A section or the end.*</span>
 
-In more advanced music theory terms, this “leading into” idea is called an antecedent and a consequent.
-
-Antecedents are like questions, consequents are like answers; the B section asks with a slower D section, and the level responds with an A section or the end of the level.
+In more advanced music theory terms, this “leading into” idea is called an **antecedent** and a **consequent**. Antecedents are like questions, consequents are like answers; the B section asks with a slower D section, and the level responds with an A section or the end of the level.
 
 ## Beats
 
@@ -366,7 +380,7 @@ As an example, let's look at this part of coelacanth by glass beach. Its time si
 
 Now, let’s look at some gameplay to this section of the song made by @Tet once again.
 
-(video)
+{{< youtube uAowMvbwqQY>}}
 
 This small excerpt of this part takes up 2 measures, or 14 beats in total. What’s happening is that Tet is splitting the two-measures/14-beats into 4 + 4 + 4 + 2
 
@@ -374,7 +388,7 @@ You may think that this works fine as you're just splitting 14 beats into 4 4 4 
 
 In Tet’s fixed version, he splits it up into 4 + 4 + 2 + 2 + 2 instead of 4 + 4 + 4 + 2.
 
-(video)
+{{< youtube FGl8Hx8yspc>}}
 
 This may seem inconsequential, since you're just splitting a 4 into 2 and 2. However, that creates a more even split: two 4s and three 2s, as opposed to three 4s and one 2. Thus, the outlying 2-beat split isn't coming at you unexpectedly.
 
