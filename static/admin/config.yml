@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: chucorate/gdcs2
+  repo: komatic5/gdcs2
   branch: main
   open_authoring: true
 
