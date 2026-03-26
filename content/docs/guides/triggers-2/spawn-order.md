@@ -1,12 +1,12 @@
 ---
-title: "Spawn Order"
+title: Spawn Order
 weight: 6020
 date: 2024-04-18T00:00:00.000Z
 authors:
-  - "typexleta"
+  - typexleta
 contributors:
-  - "komatic5"
-  - "typexleta"
+  - komatic5
+  - typexleta
 draft: false
 ---
 
@@ -26,7 +26,7 @@ Spawn triggers will activate triggers from left to right on the X-axis. This see
 
 In the example below, both color triggers are activated by the same spawn trigger. In the first attempt the green color trigger activates first and is then overridden by the red one. In the second attempt, the opposite occurs.
 
-None
+{{< youtube j-9g-Q7Qn1I >}}
 
 Spawn order in the editor depends on the order you place down the triggers. Once you save and exit the level, it’ll follow the normal Spawn Order rules.
 
@@ -44,7 +44,7 @@ While branching is not too useful using just spawn triggers, it lets you make fa
 
 The image below shows an example of spawn branching. The number above each trigger shows the order it’ll activate in, while the number below is the group it’s assigned to. The first spawn trigger makes two branches and the upper one activates first, as it’s further left than the bottom one. Once both color triggers activate, the lower branch is activated.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1cZVOS0rlo7RWk2ccWVE0-yfSq9mkOe5F" >}}
 
 # 3: Merging
 
