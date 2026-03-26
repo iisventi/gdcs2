@@ -7,13 +7,12 @@ weight: 110010
 
 * Decoration is made of multiple components, such as shape and color.
 * These components are the building blocks of any decoration, so it's important to know what they are and how to use them.
-* One crucial use for deco component is hierarchy*, which determines how "important" a deco element feels.
 
 {{< /callout >}}
 
 {{< callout context="danger" title="This is an advanced guide." icon="outline/alert-octagon" >}}
 
-* If you're newer to creating, it is highly recommended* that you learn what's in the Beginner and Intermediate guides first.
+* If you're newer to creating, it is *highly recommended* that you learn what's in the Beginner and Intermediate guides first.
 * Of course, we can't stop you from reading ahead, but you may struggle to apply the concepts in these guides while also learning to create.
 
 {{< /callout >}}
@@ -61,8 +60,6 @@ Knowing how to use contrast effectively can help you make decoration as good as 
 This is *similar* to contrast, but covers a different aspect. Variety is **how diverse** your deco is, in terms of the elements you're using. For instance, a pure black and white image has low variety, but high contrast; a gradient from black to gray has lower contrast, but far more variety.
 
 {{< img src="https://lh3.googleusercontent.com/d/1zgr2iWcY0pkqDSUohGClBecXXLD6Z_DD" >}}
-
-`Insert a diagram/image showing exactly what's described in the last sentence`
 
 Like contrast, variety helps make your deco more interesting. However, its role is often to **make contrast feel more natural**. You can't have high contrast in *every* area of your deco, as that becomes overwhelming or looks deep-fried. Adding more variety will help to make your contrast less harsh, which is helpful when you need lots of contrast without making everything chaotic.
 
