@@ -40,7 +40,7 @@ The components of deco are as follows.
 * **Space:** The area between and inside shapes. This can be positive space, such as the space taken up by objects, or negative space which is between objects. Both types of space are important to consider, especially for visual effects and transitions.
 * **Texture:** The material an object has or appears to have. Since we're not working with real objects, this is also implied like form. You can make objects appear to have texture by using lighting and colors.
 
-# \# 2: Contrast & Hierarchy
+# \# 2: Contrast
 
 While it's important to know what elements make up deco, it's equally (or even more) important to know about **contrast**. Put simply, this is the difference between two objects. Contrast is the reason why you can see, distinguish objects from each other, and so on; so knowing how to manipulate it is crucial for deco.
 For decoration, these differences will be based on the elements of deco described above. A red object differs from a blue object because of color, while a circle contrasts with a square because of its shape. Objects can have multiple types of contrast, which is often how you make more dynamic and interesting visuals.
