@@ -19,6 +19,69 @@ draft: false
 {{< /callout >}}
 
 ** **
+# 1: Intro to Details
+A **detail** is an *individual feature* of an object. These are one of the most crucial parts of decorating, since details are basically what make deco interesting. 
+
+As such, it’s important to organize your details properly and avoid an undesirable, messy outcome. You should know what types of details exist and why to use them in the first place.
+## Why Details?
+
+**Details give context** for what objects are. A laptop has a screen, a trackpad, and a keyboard, so those are some details of a laptop. Without these details, you’d struggle to identify the laptop; that laptop could just be a folded piece of paper or something else.
+
+Knowing what an object is tells you how to use it, where it may have been, or just who’s meant to enjoy it. The laptop has buttons and a trackpad which you must use to operate it. Its color or any decals attached to it tell you something about the owner’s means of expressing themselves. The design of the laptop or additional details like keyboard lighting might signify the type of demographic who enjoys those details.
+
+The laptop analogy also uncovers another crucial point about details: **they must serve a purpose.** It is common practice in the GD community to add details because everyone else uses them or to fill space and make your level seem more rate-worthy, but these are irrational and dangerous uses of details. It takes a lot of skill to use details solely to make things “look good” and *actually succeed* at that, and the skills for doing so aren’t ones you’ll learn until higher grades.
+
+Instead of getting ahead of yourself trying to make things “not empty”, first determine the purposes of your details before even placing them down; the categories below are a good place to start.
+
+## Types of Details
+
+Since details are features of objects, it helps to go through some features objects can have.
+
+`(each of these needs an image)`
+
+
+
+# 2: Using Details
+
+## Functional
+
+**Functional details** are details which __indicate an object’s function.__ The buttons on a laptop are one example; you push buttons to operate the laptop. Similarly, the engineering design of an object or text instructions on a manual are functional; you can decipher why each of those things exists.
+
+In GD and other games, many of your functional details will be derived from gameplay. You need to make it clear that blocks and platforms should be touched, that spikes and hazards will kill you, and that orbs and other gameplay elements exist. These are the primary types of functional details in most levels; if you’re making a realistic environment, you will also need to include the functions of objects within it.
+
+Here's an image I took while playing Ghostrunner. This section has fans you should jump on, which have a distinct design and stand out from everything else in the screenshot. Similarly, the walls you should run on are a distinct orange which tells the player what the correct path is.
+
+{{< img src="https://lh3.googleusercontent.com/d/1jPjful_4d7vgjqQbOwwxmto7yrOUb8d2" >}}
+
+## Themed/Narrative
+
+**Narrative details** serve to advance a theme by providing visual context. These are usually seen in levels with some sort of story or explicit message. As stated earlier, you may ask the laptop owner why they have a certain sticker on it and they could explain how it’s the mascot of their alma mater.
+
+These are the least appreciated type of detail for one main reason. Narratives require media literacy to uncover and interpret, which is another layer of analysis that most players (especially GD players) will not undertake. The context for these details is usually internal to you as the creator, so it may make sense in your head but confuse others - and once again, that assumes they take the time to even do it in the first place. It is a good idea to attach your narrative details to an explicit signifier of the story or environment; for example, a king’s living quarters will have a larger physical scale than that of a peasant’s.
+
+Here's another screenshot from Ghostrunner. The main antagonist of the game is the Keymaster, an authoritarian despot who controls the "Tower" the game is set in. The graffiti on this wall indicates some resistance to her rule, with statements like "Down with the Slave-Master" and "Short live the queen!" clearly visible here.
+
+{{< img src="https://lh3.googleusercontent.com/d/1CKKKkhQmTOA5wDr2b1--n5sGMRSP5f37" >}}
+
+## Aesthetic
+
+**Aesthetic** details are created with the __express purpose of making your visuals look good.__ Your ability to use these will improve in later grades as you learn more advanced skills, but I still mention them here as they are a type of detail - just one you can’t really use yet. With laptops, many companies create specific designs that don’t improve functionality but make them look interesting, like the rainbow backlights of gaming laptops.
+
+Aesthetic details serve as the selling point of your decoration. Most people won’t think too deeply about the function or story behind your details, but they will think about what looks flashy and cool; if your detail is in a youtube thumbnail, that’s a good sign of an aesthetic detail. To this extent we can categorize aesthetic details as *macro details* which comprise the gist of your level’s environment, *micro details* which are most appreciated when dissecting specific details, *static details* which don’t move, and *animated ones* which do move and change color.
+
+Different crowds will appreciate different types of aesthetic details; for example, people like level transitions with obvious, flashy details while others enjoy blocks with smaller, more nuanced detail. The types you emphasize in your levels will depend on your intended target audience. However, I suggest having the majority of your details serve a functional or narrative purpose first, then focus on aesthetic details later. Most of your aesthetic details can be discarded in a Low Detail Mode, while functional details will remain.
+
+Compare these two screenshots, once again from Ghostrunner. The second one includes details like spotlights on the right and bloom on the light sources, which are absent from the first. These are aesthetic details; they don't contribute to the story or serve a big gameplay function, but they look cool and that's why they exist.
+
+{{< img-grid >}}
+
+{{< img src="https://lh3.googleusercontent.com/d/1jAuoVuM2sHe_0HHCuywijgCy8mpEyNVM" >}}
+
+{{< img src="https://lh3.googleusercontent.com/d/1zOr3zewAKJLhxFxMUxB1Rol07oTldgj1" >}}
+
+{{< /img-grid >}}
+
+
 # 1: References
 
 Unless you’re a master of using shapes to make objects, you’ll need to build up this skill by __analyzing the objects you wish to make__. Only the most skilled creators can produce deco directly from their minds, and only with specific objects that they have studied. If you think you’re above using references, try building anything without them and see how well you do - you’ll see how much better you do when you have a reference.
@@ -67,52 +130,9 @@ As you gain skill and advance through the grades, you’ll be asked to do studie
 
 # 2: Using Details
 
-A **detail** is an __individual feature or component of an object__. You should know how to make these from the last section of this guide, but you may wish to create custom details of your own or combine details from different objects. When doing so, it’s important to organize your details properly and avoid an undesirable, messy outcome. You should know what types of details exist and why to use them in the first place.
-## Why Details?
+A **detail** is an __individual feature or component of an object__. You should know how to make these from the last section of this guide, but you may wish to create custom details of your own or combine details from different objects. When doing so, 
 
-Details give context for what objects are. A laptop has a screen, a trackpad, and a keyboard, so those are some details of a laptop. Recall that without details like an object’s shape you’d struggle to identify them; that laptop could just be a folded piece of paper or something.
 
-Knowing what an object is tells you how to use it, where it may have been, or just who’s meant to enjoy it. The laptop has buttons and a trackpad which you must use to operate it. Its color or any decals attached to it tell you something about the owner’s means of expressing themselves. The design of the laptop or additional details like keyboard lighting might signify the type of demographic who enjoys those details.
-
-The laptop analogy also uncovers another crucial point about details: they must serve a purpose. It is common practice in the GD community to add details because everyone else uses them or to fill space and make your level seem more rate-worthy, but these are irrational and dangerous uses of details. It takes a lot of skill to use details solely to make things “look good” and *actually succeed* at that, and the skills for doing so aren’t ones you’ll learn until higher grades. Instead of getting ahead of yourself trying to make things “not empty”, first determine the purposes of your details before even placing them down; the categories below are a good place to start.
-
-## Functional
-
-**Functional details** are details which __indicate an object’s function.__ The buttons on a laptop are one example; you push buttons to operate the laptop. Similarly, the engineering design of an object or text instructions on a manual are functional; you can decipher why each of those things exists.
-
-In GD and other games, many of your functional details will be derived from gameplay. You need to make it clear that blocks and platforms should be touched, that spikes and hazards will kill you, and that orbs and other gameplay elements exist. These are the primary types of functional details in most levels; if you’re making a realistic environment, you will also need to include the functions of objects within it.
-
-Here's an image I took while playing Ghostrunner. This section has fans you should jump on, which have a distinct design and stand out from everything else in the screenshot. Similarly, the walls you should run on are a distinct orange which tells the player what the correct path is.
-
-{{< img src="https://lh3.googleusercontent.com/d/1jPjful_4d7vgjqQbOwwxmto7yrOUb8d2" >}}
-
-## Themed/Narrative
-
-**Narrative details** serve to advance a theme by providing visual context. These are usually seen in levels with some sort of story or explicit message. As stated earlier, you may ask the laptop owner why they have a certain sticker on it and they could explain how it’s the mascot of their alma mater.
-
-These are the least appreciated type of detail for one main reason. Narratives require media literacy to uncover and interpret, which is another layer of analysis that most players (especially GD players) will not undertake. The context for these details is usually internal to you as the creator, so it may make sense in your head but confuse others - and once again, that assumes they take the time to even do it in the first place. It is a good idea to attach your narrative details to an explicit signifier of the story or environment; for example, a king’s living quarters will have a larger physical scale than that of a peasant’s.
-
-Here's another screenshot from Ghostrunner. The main antagonist of the game is the Keymaster, an authoritarian despot who controls the "Tower" the game is set in. The graffiti on this wall indicates some resistance to her rule, with statements like "Down with the Slave-Master" and "Short live the queen!" clearly visible here.
-
-{{< img src="https://lh3.googleusercontent.com/d/1CKKKkhQmTOA5wDr2b1--n5sGMRSP5f37" >}}
-
-## Aesthetic
-
-**Aesthetic** details are created with the __express purpose of making your visuals look good.__ Your ability to use these will improve in later grades as you learn more advanced skills, but I still mention them here as they are a type of detail - just one you can’t really use yet. With laptops, many companies create specific designs that don’t improve functionality but make them look interesting, like the rainbow backlights of gaming laptops.
-
-Aesthetic details serve as the selling point of your decoration. Most people won’t think too deeply about the function or story behind your details, but they will think about what looks flashy and cool; if your detail is in a youtube thumbnail, that’s a good sign of an aesthetic detail. To this extent we can categorize aesthetic details as *macro details* which comprise the gist of your level’s environment, *micro details* which are most appreciated when dissecting specific details, *static details* which don’t move, and *animated ones* which do move and change color.
-
-Different crowds will appreciate different types of aesthetic details; for example, people like level transitions with obvious, flashy details while others enjoy blocks with smaller, more nuanced detail. The types you emphasize in your levels will depend on your intended target audience. However, I suggest having the majority of your details serve a functional or narrative purpose first, then focus on aesthetic details later. Most of your aesthetic details can be discarded in a Low Detail Mode, while functional details will remain.
-
-Compare these two screenshots, once again from Ghostrunner. The second one includes details like spotlights on the right and bloom on the light sources, which are absent from the first. These are aesthetic details; they don't contribute to the story or serve a big gameplay function, but they look cool and that's why they exist.
-
-{{< img-grid >}}
-
-{{< img src="https://lh3.googleusercontent.com/d/1jAuoVuM2sHe_0HHCuywijgCy8mpEyNVM" >}}
-
-{{< img src="https://lh3.googleusercontent.com/d/1zOr3zewAKJLhxFxMUxB1Rol07oTldgj1" >}}
-
-{{< /img-grid >}}
 
 ## Simplifying
 
