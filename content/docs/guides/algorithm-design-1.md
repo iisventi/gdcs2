@@ -9,7 +9,7 @@ seo:
   description: Basics of designing algorithms to solve problems
   canonical: ""
   noindex: false
-weight: 9000
+weight: 9100
 math: false
 contributors:
   - furorem
